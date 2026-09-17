@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "knowledge_policy": {
+    "website_data_only": true,
+    "external_knowledge": false,
+    "internet_search": false,
+    "external_ai": false,
+    "external_api_as_knowledge": false,
+    "scraping": false
+  },
+  "source_policy": {
+    "canonical_grantha_source": "public/data/granthas.json",
+    "navigation_source": "public/data/nav-map.json",
+    "local_html_is_source": true,
+    "local_docs_are_source": true
+  },
+  "content_policy": {
+    "invent_information": false,
+    "guess_missing_information": false,
+    "alter_source_content": false,
+    "preserve_original_text": true
+  },
+  "architecture_policy": {
+    "brain_is_index_layer": true,
+    "duplicate_canonical_database": false,
+    "design_redesign": false
+  },
+  "traceability": {
+    "source_tracking": true,
+    "sha256_for_core_json": true
+  },
+  "sync_policy": {
+    "regenerate_from_source": true,
+    "stale_snapshot_must_not_override_canonical_source": true
+  }
+}

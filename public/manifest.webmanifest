@@ -1,0 +1,109 @@
+{
+  "name": "Pushti Sahitya",
+  "short_name": "Pushti Sahitya",
+  "description": "Free non-profit digital repository of original Pushtimargiya Granthas of Śrī Vallabhācārya, Śrī Gopīnāthjī, Śrī Viṭṭhalnāthjī and other Ācāryas.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#FFF8E7",
+  "theme_color": "#0D0D3A",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": [
+    "education",
+    "books",
+    "reference"
+  ],
+  "icons": [
+    {
+      "src": "images/icons/icon-16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/icon-32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/icon-64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "images/logo-96.jpg",
+      "sizes": "1024x1024",
+      "type": "image/jpeg",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Search Granthas",
+      "short_name": "Search",
+      "url": "./granthas.html",
+      "icons": [
+        {
+          "src": "images/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ṣoḍaśa Granthas",
+      "short_name": "Ṣoḍaśa",
+      "url": "./shodash-granthas.html",
+      "icons": [
+        {
+          "src": "images/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "About Library",
+      "short_name": "About",
+      "url": "./about.html",
+      "icons": [
+        {
+          "src": "images/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "./contact.html",
+      "icons": [
+        {
+          "src": "images/icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

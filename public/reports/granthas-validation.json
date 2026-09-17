@@ -1,0 +1,33 @@
+{
+  "version": "V4.0",
+  "total_records": 328,
+  "unique_ids": 53,
+  "duplicate_id_groups": 41,
+  "duplicate_records_total": 316,
+  "missing_title": 0,
+  "missing_author": 19,
+  "missing_file": 0,
+  "records_with_ebook": 321,
+  "top_duplicate_ids": {
+    "shree-subodhini": 33,
+    "seva-vidhi": 28,
+    "articles": 28,
+    "anubhasya": 20,
+    "vaarta-sahitya": 17,
+    "kirtan-granthas": 16,
+    "bhagwatarth-prakaran": 14,
+    "brahmvaad": 12,
+    "bhagwat-commentaries": 12,
+    "vyakarana": 10,
+    "utsav-bhavna": 10,
+    "geetopanishad-commentaries": 7,
+    "yamunashtakam": 7,
+    "other-vaad-granthas": 6,
+    "vachanamruts": 6
+  },
+  "notes": [
+    "Duplicate IDs represent editions/volumes/resources and are intentionally preserved.",
+    "Detail page aggregates resources across matching IDs.",
+    "Canonical accessors normalize TITLE/AUTHOR/LANGUAGE/DESCRIPTION/E-Book/FILE fields."
+  ]
+}

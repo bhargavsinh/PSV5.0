@@ -1,0 +1,15 @@
+{
+  "brain_version": "1.0.0",
+  "generated_at": "2026-09-14T04:19:01Z",
+  "source_project": "grok-workspace",
+  "site_version": "Vβeta 5.0",
+  "knowledge_scope": "website-only",
+  "external_knowledge": false,
+  "internet_used_for_generation": false,
+  "canonical_sources": [
+    "public/data/granthas.json",
+    "public/data/nav-map.json",
+    "public/**/*.html",
+    "public/docs/*.md"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "policy": "Website-local data only for Brain generation",
+  "sources": [
+    {
+      "path": "public/data/granthas.json",
+      "type": "local_json",
+      "role": "canonical Grantha dataset",
+      "authority": "canonical",
+      "external": false,
+      "sha256": "c9a618bef7b727eb4bc0ccfbf6d2d93e01d50bdf491763eab1f2686b9a22f719"
+    },
+    {
+      "path": "public/data/nav-map.json",
+      "type": "local_json",
+      "role": "navigation map",
+      "authority": "project navigation documentation",
+      "external": false,
+      "sha256": "5a2dedb1d22e92c60f7d2ffb15b9dbd4699bc8eede8bc3480692b3c104c46410"
+    },
+    {
+      "path": "public/**/*.html",
+      "type": "local_html",
+      "role": "website page content and structure",
+      "authority": "website source",
+      "external": false
+    },
+    {
+      "path": "public/docs/*.md",
+      "type": "local_markdown",
+      "role": "architecture, feature, security and changelog documentation",
+      "authority": "project documentation",
+      "external": false
+    },
+    {
+      "path": "public/data/granthas.json:E-Book",
+      "type": "remote_url_reference",
+      "role": "ebook links already present in website data",
+      "external": true,
+      "knowledge_source": false,
+      "count": 317,
+      "note": "These are existing website references. The Brain does not fetch or use them during generation."
+    }
+  ]
+}

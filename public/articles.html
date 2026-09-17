@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Articles — Pushti Sahitya</title>
+  <meta name="description" content="Articles — Digital Repository of Pushtimargiya Granthas">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0D0D3A">
+</head>
+<body data-page="articles">
+<!-- PS Full-Page Loader -->
+<style>
+#ps-loader{position:fixed;inset:0;z-index:99999;background-color:#ffd200;background-image:radial-gradient(#0d0b09 1.6px,transparent 1.6px);background-size:9px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s ease;font-family:system-ui,-apple-system,sans-serif;margin:0;padding:1rem}
+#ps-loader.ps-hide{opacity:0;pointer-events:none}
+
+/* White glass panel for mantra + RL loader */
+#ps-loader .ps-glass{
+  background:#ffffff;
+  border:4px solid #000;
+  box-shadow:8px 8px 0 #000;
+  border-radius:.5rem;
+  padding:1.35rem 1.4rem 1.15rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  max-width:min(300px,90vw);
+  animation:ps-pop .75s cubic-bezier(.22,1.2,.36,1) forwards;
+}
+@keyframes ps-pop{0%{transform:scale(.88);opacity:.65}55%{transform:scale(1.06)}100%{transform:scale(1);opacity:1}}
+
+#ps-loader .ps-mantra{
+  font-size:clamp(.78rem,3.4vw,1rem);
+  font-weight:700;
+  color:#0d0b09;
+  text-align:center;
+  line-height:1.5;
+  letter-spacing:.02em;
+  margin-bottom:1.15rem;
+}
+
+/* Rocket League Esports style bars (adapted from official RL loader) */
+#ps-loader .rl-loading-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:6px;
+  height:48px;
+}
+#ps-loader .rl-loading-thumb{
+  width:10px;
+  height:40px;
+  background:#ff6d00;
+  border:2px solid #000;
+  border-radius:2px;
+  animation:rl-load 1.1s ease-in-out infinite;
+}
+#ps-loader .rl-loading-thumb-1{animation-delay:0s}
+#ps-loader .rl-loading-thumb-2{animation-delay:.15s}
+#ps-loader .rl-loading-thumb-3{animation-delay:.3s}
+@keyframes rl-load{
+  0%,100%{transform:scaleY(.35);opacity:.55}
+  50%{transform:scaleY(1);opacity:1}
+}
+
+#ps-loader .ps-pct{
+  margin-top:1.25rem;
+  font-weight:700;
+  font-size:1.1rem;
+  letter-spacing:.12em;
+  color:#0d0b09;
+  text-transform:uppercase;
+}
+#ps-loader .ps-bar{
+  width:300px;
+  max-width:82vw;
+  height:12px;
+  border:3px solid #000;
+  background:#fff;
+  margin-top:.5rem;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+#ps-loader .ps-fill{
+  height:100%;
+  width:0%;
+  background:#ff6d00;
+  transition:width .28s ease-out;
+}
+</style>
+<div id="ps-loader" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading Pushti Sahitya">
+  <div class="ps-glass">
+    <div class="ps-mantra">शास्त्रमवगत्य<br>मनोवाग्देहै:<br>कृष्ण: सेव्य:</div>
+    <div class="rl-loading-container" aria-hidden="true">
+      <div class="rl-loading-thumb rl-loading-thumb-1"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-2"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-3"></div>
+    </div>
+  </div>
+  <div class="ps-pct">LOADING... <span id="ps-pct-num">0</span>%</div>
+  <div class="ps-bar"><div class="ps-fill" id="ps-fill"></div></div>
+</div>
+<script src="loader.js"></script>
+
+
+
+
+
+
+
+
+<div id="site-header"></div>
+  <main id="main" class="page-enter">
+    <section class="section">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span>→</span>
+          <span aria-current="page">Articles</span>
+        </nav>
+        <h1>Articles</h1>
+
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Language</th>
+                <th>Description</th>
+                <th>e-book</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Title">Ras Drashti Ni Tarfen Ma</td>
+                <td data-label="Author">Goswami Shree ShyamManoharji</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/Ras_drashti_ni_tarfenma.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Vaishnavi Astha - Seminar Paper 1</td>
+                <td data-label="Author">Goswami Shree ShyamManoharji</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/vaishnavi_astha_1.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Vaishnavi Astha - Seminar Paper 2</td>
+                <td data-label="Author">Goswami Shree ShyamManoharji</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/vaishnavi_astha_2.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Pushti-Siddhant Shekhar</td>
+                <td data-label="Author">Harishankar Omkarji Shastri</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/PushtimargiyaSiddhantShekhar.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Pushtimarg Na Lekho</td>
+                <td data-label="Author">Ranchhoddas Patwari</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/PushtimarganaLekho.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Jeevan Charitra of Param Bhagavadiya Shree Vadilal Shah</td>
+                <td data-label="Author">Various</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article on Anugrah Magazine</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/JeevancharitraOfVadilalShah.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Brahmvaad And Mayavaad</td>
+                <td data-label="Author">Ishwarlal Shah</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article on Comparison between Mayavaad And Brahmvaad</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/Brahmvad_Ane_Mayavad.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Study Paper on Janma Prakaran of 10th Skandh of Shreemad Bhagwat</td>
+                <td data-label="Author">Dhawal Patel , Parul Patel(NC State), Dashrath Shah, and Pranav Gaglani (NJ)</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Study Paper prepared under the guidance of Pujya Shree ShyamManohar bawashri (Parla-Kishangarh)</td>
+                <td data-label="e-book"><a href="http://www.pushtisahitya.org/NirodhLeela.html" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Siddhant Rahasya Granth - Chart</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">As per the Tika of Shree Vrajotsavji on Siddhant Rahasya.</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/SiddhantRahasya-Chart-ShreeVrajotsavji-Tika.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Siddhant Rahasya Granth - Chart as per Shree Hariraiji</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">As per the Tika of Shree Hariraiji on Siddhant Rahasya.</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/SiddhantRashasya-Chart-ShreeHariraiji-Tika.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Shree Vallabhacharya s Principles and Online Pushtimargiya Teleconference Satsangs</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/ShreeVallabhacharyasPrinciplesAndOnlinePushtimargiyaTeleconferenceSatsangs/ShreeVallabhacharyasPrinciplesAndOnlinePushti.html" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Saankhya and Yog as Shree Krishna&#x27;s Kundal</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article written as per explanation given by Goswami Shree Shyaammanoharji (Kishangarh-Parla)</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/SaankhyaYog/SankyaYog.htm" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Vedic Monistic Polytheism and Its Role in World Peace, Environment Conservation and Interfaith Tolerance</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">English</td>
+                <td data-label="Description">Lecture and Paper Presented at the Parliament of the World&#x27;s Religions - 2015 at Salt Lake City, Utah, USA</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/English/Philosophy/Articles/PWR2015/Paper-WorldReligionsParliament_SriVallabhacharya_Philosophy.pdf" target="_blank" rel="noopener noreferrer">Read</a> <a href="https://www.pushtisahitya.org/English/Philosophy/Articles/PWR2015/Vedic_Monistic_Polytheism_and_its_Role_in_World_Peace_HandOut.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Theory of Shankara and Vallabha</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">English</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/ShankarAndVallabh/TheoryofShankaraandVallabha.htm" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Bhakti: A Vedantic Principle</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">English</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/English/Philosophy/Articles/BhaktiInVeda/Bhumadhikaran.htm" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Idol Worship: A Vedic tradition</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/MurtiPoojanVaad.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">BhaktiMartanda: A Summary</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/BhaktiMartanda.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Is God Cruel?</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/NirdayBhagavan/IsGodCruel.htm" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Purushottamyagya Nirasan Vaad</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/Purushottamyagyanirasanvaad.htm" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">History on Sri Vallabhacharyaji&#x27;s caste</td>
+                <td data-label="Author">Mitesh Shah (Canada), Amisha Patel (USA), Nita Delhiwala (India)</td>
+                <td data-label="Language">English,Gujarati &amp; Hindi</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/English/SriVallabhacharya/History_on_SriVallabhacharyaji_and_his_caste.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Anubhasya sutra 3.1.11 related chart</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/anubhasya/Anubhasya-3-1-11-chart.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Purushottam and Jagat Chart</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Article</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/Purushottam_Jagat_Chart.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Sri Vallabhacharya and Sri Chaitanya: Busting Myths and Clearing the Misconceptions</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">English</td>
+                <td data-label="Description">Presentation</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/English/SriVallabhacharya/SriVallabhacharya_SriChaitanya.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Purushasuktam: A Vallabh Vedantic Interpretation</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">Book</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/Purushasuktam-DhawalPatel.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Pushtimargiya Samarpan</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Hindi</td>
+                <td data-label="Description">Presentation</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/samarpan/Pushtimargiya-samarpan.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Why only Gruh Seva in Pushtimarg?</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Hindi</td>
+                <td data-label="Description">Presentation</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/Why-Gruhseva.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Sri Krishna &amp; Narayan</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Hindi</td>
+                <td data-label="Description">Presentation</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/articles/ShriKrishna_Narayana_Aksharbrahman.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Shree Mahaprabhuji&#x27;s Janmapatrika and Sarvottam stotra sangati</td>
+                <td data-label="Author">Dhawal Patel</td>
+                <td data-label="Language">Hindi</td>
+                <td data-label="Description">Presentation</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Braj/janmapatrika/tatvaguna-kirtan.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        
+
+        <p class="page-disclaimer">Disclaimer: If anyone has any type of copyright issues in publishing the granthas in electronic format in this website, please email us at admin@pushtisahitya.org. This portal is NOT the official website of Pushti Sampraday.</p>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="script.js?v=5.3" defer></script>
+</body>
+</html>

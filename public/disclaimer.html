@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Disclaimer — Pushti Sahitya Vβeta 5.0</title>
+  <meta name="description" content="Disclaimer — Pushti Sahitya digital repository of Pushtimargiya Granthas (website and PWA).">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0D0D3A">
+</head>
+<body data-page="policy">
+<!-- PS Full-Page Loader -->
+<style>
+#ps-loader{position:fixed;inset:0;z-index:99999;background-color:#ffd200;background-image:radial-gradient(#0d0b09 1.6px,transparent 1.6px);background-size:9px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s ease;font-family:system-ui,-apple-system,sans-serif;margin:0;padding:1rem}
+#ps-loader.ps-hide{opacity:0;pointer-events:none}
+
+/* White glass panel for mantra + RL loader */
+#ps-loader .ps-glass{
+  background:#ffffff;
+  border:4px solid #000;
+  box-shadow:8px 8px 0 #000;
+  border-radius:.5rem;
+  padding:1.35rem 1.4rem 1.15rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  max-width:min(300px,90vw);
+  animation:ps-pop .75s cubic-bezier(.22,1.2,.36,1) forwards;
+}
+@keyframes ps-pop{0%{transform:scale(.88);opacity:.65}55%{transform:scale(1.06)}100%{transform:scale(1);opacity:1}}
+
+#ps-loader .ps-mantra{
+  font-size:clamp(.78rem,3.4vw,1rem);
+  font-weight:700;
+  color:#0d0b09;
+  text-align:center;
+  line-height:1.5;
+  letter-spacing:.02em;
+  margin-bottom:1.15rem;
+}
+
+/* Rocket League Esports style bars (adapted from official RL loader) */
+#ps-loader .rl-loading-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:6px;
+  height:48px;
+}
+#ps-loader .rl-loading-thumb{
+  width:10px;
+  height:40px;
+  background:#ff6d00;
+  border:2px solid #000;
+  border-radius:2px;
+  animation:rl-load 1.1s ease-in-out infinite;
+}
+#ps-loader .rl-loading-thumb-1{animation-delay:0s}
+#ps-loader .rl-loading-thumb-2{animation-delay:.15s}
+#ps-loader .rl-loading-thumb-3{animation-delay:.3s}
+@keyframes rl-load{
+  0%,100%{transform:scaleY(.35);opacity:.55}
+  50%{transform:scaleY(1);opacity:1}
+}
+
+#ps-loader .ps-pct{
+  margin-top:1.25rem;
+  font-weight:700;
+  font-size:1.1rem;
+  letter-spacing:.12em;
+  color:#0d0b09;
+  text-transform:uppercase;
+}
+#ps-loader .ps-bar{
+  width:300px;
+  max-width:82vw;
+  height:12px;
+  border:3px solid #000;
+  background:#fff;
+  margin-top:.5rem;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+#ps-loader .ps-fill{
+  height:100%;
+  width:0%;
+  background:#ff6d00;
+  transition:width .28s ease-out;
+}
+</style>
+<div id="ps-loader" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading Pushti Sahitya">
+  <div class="ps-glass">
+    <div class="ps-mantra">शास्त्रमवगत्य<br>मनोवाग्देहै:<br>कृष्ण: सेव्य:</div>
+    <div class="rl-loading-container" aria-hidden="true">
+      <div class="rl-loading-thumb rl-loading-thumb-1"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-2"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-3"></div>
+    </div>
+  </div>
+  <div class="ps-pct">LOADING... <span id="ps-pct-num">0</span>%</div>
+  <div class="ps-bar"><div class="ps-fill" id="ps-fill"></div></div>
+</div>
+<script src="loader.js"></script>
+
+
+
+
+
+
+
+
+<div id="site-header"></div>
+  <main id="main" class="page-enter">
+    <section class="section">
+      <div class="container" style="max-width:46rem">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span>→</span>
+          <a href="policies/consolidated-amendment.html">Policies</a><span>→</span>
+          <span aria-current="page">Disclaimer</span>
+        </nav>
+
+        <h1>Disclaimer</h1>
+        <p class="text-muted" style="margin-bottom:var(--space-6)">Last updated: September 2026 · Applies to the Pushti Sahitya website and Progressive Web App (PWA) · Site Vβeta 5.0</p>
+        <p class="text-muted"><strong>Amendment:</strong> Stricter enforcement rules in the <a href="policies/consolidated-amendment.html">Consolidated Policy Amendment (September 2026)</a> prevail where applicable.</p>
+
+        <h2>1. Nature of this service</h2>
+        <p>Pushti Sahitya is a free, non-profit digital repository intended for preservation, discovery, and study of Pushtimargiya granthas and related literature. It is provided as a static website and as an installable Progressive Web App (PWA) for offline access to cached pages and resources where available.</p>
+        <p><strong>This portal is not the official website of the Puṣṭi Sampradāya</strong> and does not claim institutional authority over doctrine, initiation, seva, or sampradāya administration.</p>
+
+        <h2>2. No professional or religious advice</h2>
+        <p>Content on this website and PWA is for general educational, archival, and informational purposes only. It does <strong>not</strong> constitute:</p>
+        <ul>
+          <li>religious ruling, dikṣā guidance, or substitute for a qualified guru or ācārya;</li>
+          <li>legal, medical, financial, or other professional advice;</li>
+          <li>a complete or definitive edition of any text.</li>
+        </ul>
+        <p>For spiritual practice and doctrinal questions, please consult qualified teachers and primary sources within the tradition.</p>
+
+        <h2>3. Accuracy and completeness</h2>
+        <p>We strive for careful presentation of titles, metadata, links, and descriptive text. However, we do <strong>not warrant</strong> that any page, file, translation reference, catalogue entry, or search result is complete, current, error-free, or fit for a particular purpose.</p>
+        <p>Transcription errors, broken external links, outdated paths, or incomplete catalogue records may exist. Users should verify important references against authoritative printed or institutional sources.</p>
+
+        <h2>4. Third-party content and external links</h2>
+        <p>Many e-book and PDF links point to files hosted by third parties. Those hosts, files, and their terms are outside the direct control of Pushti Sahitya. We are not responsible for:</p>
+        <ul>
+          <li>availability, alteration, or removal of external files;</li>
+          <li>accuracy or legality of third-party hosted content;</li>
+          <li>privacy practices or security of external websites.</li>
+        </ul>
+        <p>Following an external link is at your own risk.</p>
+
+        <h2>5. Website, PWA, and offline use</h2>
+        <p>The PWA may cache pages and assets on your device for offline use. Cached content may become outdated until the device reconnects and refreshes from the network. Offline mode does not guarantee access to every grantha page or external PDF.</p>
+        <p>Service worker behaviour, install prompts, and update prompts are provided as a convenience. We do not warrant uninterrupted operation on every device, browser, or OS version.</p>
+
+        <h2>6. Digital Granthapal and search tools</h2>
+        <p>On-site search and the Digital Granthapal assistant are tools for navigating this repository’s published index. They:</p>
+        <ul>
+          <li>do not invent granthas, authors, or quotations beyond the published data;</li>
+          <li>may return incomplete matches depending on query and filters;</li>
+          <li>are not a substitute for scholarly or traditional study.</li>
+        </ul>
+        <p>If a conversational or assisted interface is enabled, its replies remain limited to repository guidance unless a separate notice states otherwise.</p>
+
+        <h2>7. Intellectual property</h2>
+        <p>Site design, code, and original descriptive text are protected as applicable. Underlying classical texts and published editions remain subject to the rights of their authors, editors, publishers, and communities. See the <a href="policies/copyright-ip.html">Copyright &amp; Intellectual Property Policy</a> and <a href="policies/content-usage.html">Content Usage Policy</a>.</p>
+
+        <h2>8. Limitation of liability</h2>
+        <p>To the maximum extent permitted by applicable law, the operators of Pushti Sahitya shall not be liable for any indirect, incidental, special, consequential, or punitive damages, or for loss of data, profits, or goodwill, arising from:</p>
+        <ul>
+          <li>use or inability to use the website or PWA;</li>
+          <li>reliance on any catalogue entry, description, or linked file;</li>
+          <li>offline cache behaviour, software bugs, or service interruptions;</li>
+          <li>conduct of third-party sites or hosts.</li>
+        </ul>
+        <p>The service is provided on an “<strong>as is</strong>” and “<strong>as available</strong>” basis without warranties of any kind, express or implied, including merchantability, fitness for a particular purpose, and non-infringement, except where such exclusions are not allowed by law.</p>
+
+        <h2>9. Acceptable use and enforcement</h2>
+        <p>Use of this website and PWA is subject to the <a href="policies/terms-and-conditions.html">Terms &amp; Conditions</a>, <a href="policies/acceptable-use.html">Acceptable Use Policy</a>, and the <a href="policies/consolidated-amendment.html">Consolidated Policy Amendment</a>. Abuse, unauthorized bulk extraction, security attacks, and prohibited commercial exploitation may result in access restriction and other enforcement measures without prior notice where severity warrants.</p>
+
+        <h2>10. No affiliation disclaimer</h2>
+        <p>Names of ācāryas, texts, and institutions appear for identification and archival reference. Unless explicitly stated, no endorsement, sponsorship, or official affiliation is implied.</p>
+
+        <h2>11. Changes</h2>
+        <p>This Disclaimer may be updated from time to time. The “Last updated” date at the top of this page reflects the current version. Continued use of the website or PWA after changes constitutes acceptance where permitted by law.</p>
+
+        <h2>12. Contact</h2>
+        <p>Questions about this Disclaimer or the repository:</p>
+        <p><a href="mailto:admin@pushtisahitya.org">admin@pushtisahitya.org</a></p>
+        <p>See also <a href="policies/grievance.html">Grievance</a> and <a href="contact.html">Contact</a>.</p>
+
+        <p style="margin-top:var(--space-8)">
+          <a class="btn btn-secondary" href="policies/consolidated-amendment.html">Consolidated Amendment</a>
+          <a class="btn btn-secondary" href="index.html">Return Home</a>
+          <a class="btn btn-primary" href="contact.html">Contact</a>
+        </p>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="script.js?v=5.3" defer></script>
+</body>
+</html>

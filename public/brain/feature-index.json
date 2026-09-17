@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0.0",
+  "features": [
+    {
+      "name": "Home",
+      "location": "public/index.html",
+      "files_used": [
+        "public/index.html"
+      ],
+      "data_source": "local HTML",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Grantha Repository / Search",
+      "location": "public/granthas.html",
+      "files_used": [
+        "public/granthas.html",
+        "public/data/granthas.json",
+        "public/script.js"
+      ],
+      "data_source": "public/data/granthas.json",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Digital Granthapal V62 bridge",
+      "location": "public/digital-granthapal-v62.js",
+      "files_used": [
+        "public/digital-granthapal-v62.js",
+        "public/digital-granthapal-v62.css",
+        "public/granthas.html"
+      ],
+      "data_source": "local website data / granthas.html",
+      "status": "present",
+      "notes": "Existing bridge routes search to granthas.html; no external API dependency in this script."
+    },
+    {
+      "name": "PWA manifest",
+      "location": "public/manifest.webmanifest",
+      "files_used": [
+        "public/manifest.webmanifest"
+      ],
+      "data_source": "local manifest",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Service Worker / offline caching",
+      "location": "public/sw.js",
+      "files_used": [
+        "public/sw.js"
+      ],
+      "data_source": "local project assets",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Shared loader / partial injection",
+      "location": "public/loader.js",
+      "files_used": [
+        "public/loader.js",
+        "public/header.html",
+        "public/footer.html"
+      ],
+      "data_source": "local HTML partials",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Shared site script",
+      "location": "public/script.js",
+      "files_used": [
+        "public/script.js",
+        "public/header.html",
+        "public/footer.html"
+      ],
+      "data_source": "local HTML/data",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Client-side protection layer",
+      "location": "public/protection.js",
+      "files_used": [
+        "public/protection.js"
+      ],
+      "data_source": "local project code",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Policy pages",
+      "location": "public/policies/",
+      "files_used": [
+        "public/policies/*.html"
+      ],
+      "data_source": "local HTML",
+      "status": "present",
+      "notes": ""
+    },
+    {
+      "name": "Navigation map",
+      "location": "public/data/nav-map.json",
+      "files_used": [
+        "public/data/nav-map.json"
+      ],
+      "data_source": "local JSON",
+      "status": "present",
+      "notes": ""
+    }
+  ]
+}

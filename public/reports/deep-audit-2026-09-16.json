@@ -1,0 +1,63 @@
+{
+  "version": "V5.1",
+  "date": "2026-09-16",
+  "scope": {
+    "html_files": 83,
+    "granthas_json_records": 328,
+    "shodash_grantha_pages": 16,
+    "shodash_tables": {
+      "yamunashtakam.html": 7,
+      "balbodh.html": 5,
+      "siddhant-muktavali.html": 2,
+      "pushti-pravaha-maryada.html": 2,
+      "siddhant-rahasyam.html": 2,
+      "navratnam.html": 5,
+      "antahkaran-prabodh.html": 2,
+      "vivek-dhairya-ashraya.html": 4,
+      "krishnashraya.html": 5,
+      "chatuhshloki.html": 4,
+      "bhakti-vardhini.html": 4,
+      "jalbhed.html": 2,
+      "panch-padhyani.html": 1,
+      "sanyas-nirnaya.html": 2,
+      "nirodh-lakshanam.html": 2,
+      "sevafalam.html": 1
+    },
+    "external_ebook_links_in_shodash": 50
+  },
+  "local_link_audit": {
+    "broken_local_href_count": 0,
+    "broken_local_image_count": 0,
+    "header_local_links": 72,
+    "footer_local_links": 24
+  },
+  "image_audit": {
+    "all_shodash_pages_have_at_least_one_image": true,
+    "corrected_krishnashraya_wrong_yamuna_image": true,
+    "added_author_illustration_to_pages_without_local_image": [
+      "bhakti-vardhini.html",
+      "jalbhed.html",
+      "panch-padhyani.html",
+      "sanyas-nirnaya.html",
+      "nirodh-lakshanam.html",
+      "sevafalam.html",
+      "shodash-granthas.html"
+    ]
+  },
+  "content_integrity": {
+    "visible_text_changed_outside_header_footer": false,
+    "html_text_changes_allowed_only_in": [
+      "header.html",
+      "footer.html"
+    ]
+  },
+  "live_source_cross_checks": [
+    "Root repository indexed source confirms the repository purpose and free PDF collection.",
+    "Current indexed source pages were cross-checked for Shree Yamunashtakam, Balbodh, Siddhant Muktavali, Pushti Pravaha Maryada, Siddhant Rahasya, Bhakti Vardhini, Vivek-Dhairya-Ashraya, PanchPadhyani, NirodhLakshanam and Sevafal table structure/content.",
+    "Sevafalam e-book destination was corrected from a Sanyas Nirnaya PDF path to the verified live Sevafal source page because the previous destination was semantically mismatched."
+  ],
+  "notes": [
+    "External PDF HTTP reachability for every one of the 328 JSON records cannot be truthfully marked 100% live-verified from this environment; local targets and sampled/current indexed source pages were checked.",
+    "No existing visible text in non-header/footer HTML was changed."
+  ]
+}

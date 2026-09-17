@@ -1,0 +1,322 @@
+/**
+ * Digital Granthapal — Vβeta 6.1
+ * Lightweight CSS for the virtual librarian avatar + panel.
+ * ADD-ONLY · does not override existing Pushti Sahitya text or layout rules.
+ */
+
+/* ---- Floating host ---- */
+#dg-host {
+  position: fixed;
+  z-index: 9200;
+  right: max(0.75rem, env(safe-area-inset-right, 0px));
+  bottom: max(0.85rem, env(safe-area-inset-bottom, 0px));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+  pointer-events: none;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+}
+
+#dg-host * {
+  box-sizing: border-box;
+}
+
+/* ---- Avatar button ---- */
+#dg-avatar-btn {
+  pointer-events: auto;
+  width: 72px;
+  height: 88px;
+  padding: 0;
+  border: 3px solid #111;
+  border-radius: 1rem 1rem 0.65rem 0.65rem;
+  background: linear-gradient(180deg, #FFF8E7 0%, #FFE566 55%, #FFD54A 100%);
+  box-shadow: 5px 5px 0 #111, 0 0 0 1px rgba(255, 0, 128, 0.15);
+  cursor: pointer;
+  position: relative;
+  overflow: visible;
+  transform-origin: 50% 85%;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#dg-avatar-btn:hover,
+#dg-avatar-btn:focus-visible {
+  box-shadow: 6px 6px 0 #111, 0 0 0 3px #FF0080;
+  outline: none;
+}
+
+#dg-avatar-btn:focus-visible {
+  outline: 3px solid #0066FF;
+  outline-offset: 3px;
+}
+
+#dg-avatar-btn[aria-expanded="true"] {
+  box-shadow: 4px 4px 0 #111, 0 0 0 3px #0D0D3A;
+}
+
+/* SVG stage */
+#dg-avatar-btn .dg-stage {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+/* Floating / breathing */
+@keyframes dg-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes dg-breathe {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(1.025); }
+}
+
+@keyframes dg-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.08); }
+}
+
+@keyframes dg-wave {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-22deg); }
+  50% { transform: rotate(12deg); }
+  75% { transform: rotate(-16deg); }
+}
+
+@keyframes dg-book-tilt {
+  0%, 100% { transform: rotate(-6deg) translateY(0); }
+  50% { transform: rotate(-2deg) translateY(-2px); }
+}
+
+@keyframes dg-search {
+  0%, 100% { transform: rotate(0deg) translateX(0); }
+  30% { transform: rotate(-8deg) translateX(-2px); }
+  60% { transform: rotate(8deg) translateX(2px); }
+}
+
+@keyframes dg-point {
+  0%, 100% { transform: translateX(0); }
+  40% { transform: translateX(4px); }
+  70% { transform: translateX(2px); }
+}
+
+#dg-avatar-btn.dg-idle {
+  animation: dg-float 4.2s ease-in-out infinite;
+}
+
+#dg-avatar-btn .dg-torso {
+  transform-origin: 50% 100%;
+  animation: dg-breathe 3.6s ease-in-out infinite;
+}
+
+#dg-avatar-btn .dg-eye {
+  transform-origin: center;
+  animation: dg-blink 5.5s ease-in-out infinite;
+}
+
+#dg-avatar-btn.dg-greet .dg-arm-right {
+  transform-origin: 18px 42px;
+  animation: dg-wave 0.9s ease-in-out 2;
+}
+
+#dg-avatar-btn.dg-read .dg-book {
+  animation: dg-book-tilt 1.8s ease-in-out infinite;
+}
+
+#dg-avatar-btn.dg-search .dg-head {
+  animation: dg-search 1.4s ease-in-out infinite;
+}
+
+#dg-avatar-btn.dg-nav .dg-arm-left {
+  transform-origin: 46px 42px;
+  animation: dg-point 1s ease-in-out 2;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  #dg-avatar-btn.dg-idle,
+  #dg-avatar-btn .dg-torso,
+  #dg-avatar-btn .dg-eye,
+  #dg-avatar-btn.dg-greet .dg-arm-right,
+  #dg-avatar-btn.dg-read .dg-book,
+  #dg-avatar-btn.dg-search .dg-head,
+  #dg-avatar-btn.dg-nav .dg-arm-left {
+    animation: none !important;
+  }
+}
+
+/* ---- Panel ---- */
+#dg-panel {
+  pointer-events: auto;
+  width: min(300px, calc(100vw - 1.5rem));
+  max-height: min(70vh, 420px);
+  overflow: auto;
+  background: #FFFFFF;
+  border: 3px solid #111;
+  border-radius: 0.65rem;
+  box-shadow: 8px 8px 0 #111;
+  padding: 0.85rem 0.9rem 0.95rem;
+  color: #111;
+  display: none;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+#dg-panel.dg-open {
+  display: flex;
+}
+
+#dg-panel-title {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+  color: #0D0D3A;
+  line-height: 1.25;
+}
+
+#dg-panel-sub {
+  margin: 0;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #FF0080;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+#dg-panel-desc {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  color: #333;
+}
+
+#dg-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.15rem;
+}
+
+.dg-action {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  min-height: 44px;
+  padding: 0.55rem 0.7rem;
+  border: 2.5px solid #111;
+  border-radius: 0.4rem;
+  background: #FFF8E7;
+  color: #111;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: none;
+  box-shadow: 3px 3px 0 #111;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, background 0.12s ease;
+}
+
+.dg-action:hover,
+.dg-action:focus-visible {
+  background: #FFE566;
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #111;
+  outline: none;
+}
+
+.dg-action:focus-visible {
+  outline: 3px solid #0066FF;
+  outline-offset: 2px;
+}
+
+.dg-action:active {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0 #111;
+}
+
+.dg-action-icon {
+  flex: 0 0 auto;
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+#dg-close {
+  position: absolute;
+  top: 0.45rem;
+  right: 0.45rem;
+  width: 36px;
+  height: 36px;
+  border: 2px solid #111;
+  border-radius: 0.3rem;
+  background: #fff;
+  color: #111;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  line-height: 1;
+  box-shadow: 2px 2px 0 #111;
+}
+
+#dg-close:hover,
+#dg-close:focus-visible {
+  background: #FF0080;
+  color: #fff;
+  outline: none;
+}
+
+#dg-close:focus-visible {
+  outline: 3px solid #0066FF;
+  outline-offset: 2px;
+}
+
+#dg-panel {
+  position: relative;
+}
+
+#dg-panel-footer {
+  margin: 0.25rem 0 0;
+  font-size: 0.7rem;
+  color: #555;
+  line-height: 1.35;
+}
+
+/* Mobile sizing */
+@media (max-width: 640px) {
+  #dg-avatar-btn {
+    width: 60px;
+    height: 74px;
+  }
+
+  #dg-panel {
+    width: min(280px, calc(100vw - 1.25rem));
+  }
+
+  /* Keep clear of common bottom UI */
+  #dg-host {
+    bottom: max(4.5rem, env(safe-area-inset-bottom, 0px));
+    right: max(0.6rem, env(safe-area-inset-right, 0px));
+  }
+}
+
+/* Very small screens: shift slightly left if needed */
+@media (max-width: 360px) {
+  #dg-host {
+    right: 0.4rem;
+  }
+}
+
+/* Print: hide assistant */
+@media print {
+  #dg-host {
+    display: none !important;
+  }
+}

@@ -1,0 +1,9 @@
+/* Digital Granthapal Vβeta 6.2 — additive real-time search UI */
+#dg-v62-search{display:flex;gap:.45rem;margin:.75rem 0 0;align-items:stretch}
+#dg-v62-search-input{flex:1;min-width:0;padding:.72rem .78rem;border:3px solid #111;border-radius:.35rem;background:#fff;color:#111;font:inherit;box-shadow:3px 3px 0 #111}
+#dg-v62-search-input:focus{outline:3px solid #D35400;outline-offset:2px}
+#dg-v62-search-submit{border:3px solid #111;border-radius:.35rem;background:#FFE566;color:#111;font-weight:900;padding:.7rem .8rem;cursor:pointer;box-shadow:3px 3px 0 #111;white-space:nowrap}
+#dg-v62-search-submit:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 #111}
+#dg-v62-search-status{margin:.45rem 0 0;font-size:.72rem;line-height:1.35;color:inherit;opacity:.82;min-height:1em}
+@media(max-width:420px){#dg-v62-search{flex-direction:column}#dg-v62-search-submit{width:100%}}
+@media(prefers-reduced-motion:reduce){#dg-v62-search-submit{transform:none!important}}

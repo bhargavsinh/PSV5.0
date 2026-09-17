@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /.well-known/
+Sitemap: https://www.pushtisahitya.org/sitemap.xml

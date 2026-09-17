@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search Grantha — Pushti Sahitya Vβeta 5.0</title>
+  <meta name="description" content="Search Grantha — central searchable index of Pushti Sahitya Navigation pages">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0D0D3A">
+  <style>
+    .search-hero{padding:var(--space-6,1.5rem) 0 var(--space-4,1rem)}
+    .search-box{display:flex;gap:.5rem;align-items:stretch;max-width:42rem;margin-top:1rem}
+    .search-box input[type=search]{flex:1;min-width:0;padding:.85rem 1rem;border:1px solid #E0D6C4;border-radius:.75rem;font-size:1rem;background:#fff}
+    .search-box input:focus{outline:2px solid #D35400;outline-offset:2px}
+    .search-box button{padding:.85rem 1.1rem;border:none;border-radius:.75rem;background:#1A2744;color:#fff;font-weight:600;cursor:pointer}
+    .search-box button:hover{background:#D35400}
+    #result-count{margin:1rem 0;font-size:.9rem;color:#5C4F3A}
+    .grantha-grid{display:grid;grid-template-columns:1fr;gap:1rem}
+    @media(min-width:640px){.grantha-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(min-width:1000px){.grantha-grid{grid-template-columns:repeat(3,1fr)}}
+    .grantha-card{background:#fff;border:1px solid #E0D6C4;border-radius:.75rem;padding:1.1rem;box-shadow:0 2px 10px rgba(44,36,22,.06);display:flex;flex-direction:column;gap:.45rem}
+    .grantha-card h3{margin:0;font-size:1.05rem;line-height:1.35}
+    .grantha-card h3 a{color:#1A2744;text-decoration:none}
+    .grantha-card h3 a:hover{color:#D35400}
+    .grantha-meta{display:flex;flex-wrap:wrap;gap:.35rem}
+    .meta-tag{font-size:.7rem;padding:.2rem .5rem;border-radius:999px;background:#FFF8F0;color:#5C4F3A;border:1px solid #E0D6C4}
+    .grantha-card p{margin:0;font-size:.85rem;color:#5C4F3A;line-height:1.45;flex:1}
+    .grantha-fields{font-size:.8rem;color:#5C4F3A;display:grid;gap:.25rem}
+    .grantha-fields span strong{color:#2C2416}
+    .grantha-actions{margin-top:.35rem;display:flex;flex-wrap:wrap;gap:.5rem;align-items:center}
+    .empty-state{text-align:center;padding:2rem;color:#5C4F3A;grid-column:1/-1}
+    .search-filters{display:flex;flex-wrap:wrap;gap:.65rem;margin-top:.85rem;max-width:48rem}
+    .filter-field{display:flex;flex-direction:column;gap:.25rem;min-width:9rem;flex:1 1 9rem}
+    .filter-label{font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#111}
+    .filter-field select{padding:.55rem .65rem;border:3px solid #111;border-radius:.35rem;background:#fff;font-size:.88rem;box-shadow:3px 3px 0 #111;min-height:44px}
+    .search-box input[type=search]{border:3px solid #111!important;border-radius:.35rem!important;box-shadow:3px 3px 0 #111}
+    .search-box button{border:3px solid #111!important;border-radius:.35rem!important;box-shadow:3px 3px 0 #111;background:#0D0D3A!important;font-weight:800;text-transform:uppercase}
+    .grantha-card{border:3px solid #111!important;border-radius:.4rem!important;box-shadow:5px 5px 0 #111!important}
+    .meta-tag{border:2px solid #111!important;border-radius:.2rem!important;background:#FFE566!important;color:#111!important;font-weight:700}
+  </style>
+</head>
+<body data-page="granthas">
+<!-- PS Full-Page Loader -->
+<style>
+#ps-loader{position:fixed;inset:0;z-index:99999;background-color:#ffd200;background-image:radial-gradient(#0d0b09 1.6px,transparent 1.6px);background-size:9px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s ease;font-family:system-ui,-apple-system,sans-serif;margin:0;padding:1rem}
+#ps-loader.ps-hide{opacity:0;pointer-events:none}
+
+/* White glass panel for mantra + RL loader */
+#ps-loader .ps-glass{
+  background:#ffffff;
+  border:4px solid #000;
+  box-shadow:8px 8px 0 #000;
+  border-radius:.5rem;
+  padding:1.35rem 1.4rem 1.15rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  max-width:min(300px,90vw);
+  animation:ps-pop .75s cubic-bezier(.22,1.2,.36,1) forwards;
+}
+@keyframes ps-pop{0%{transform:scale(.88);opacity:.65}55%{transform:scale(1.06)}100%{transform:scale(1);opacity:1}}
+
+#ps-loader .ps-mantra{
+  font-size:clamp(.78rem,3.4vw,1rem);
+  font-weight:700;
+  color:#0d0b09;
+  text-align:center;
+  line-height:1.5;
+  letter-spacing:.02em;
+  margin-bottom:1.15rem;
+}
+
+/* Rocket League Esports style bars (adapted from official RL loader) */
+#ps-loader .rl-loading-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:6px;
+  height:48px;
+}
+#ps-loader .rl-loading-thumb{
+  width:10px;
+  height:40px;
+  background:#ff6d00;
+  border:2px solid #000;
+  border-radius:2px;
+  animation:rl-load 1.1s ease-in-out infinite;
+}
+#ps-loader .rl-loading-thumb-1{animation-delay:0s}
+#ps-loader .rl-loading-thumb-2{animation-delay:.15s}
+#ps-loader .rl-loading-thumb-3{animation-delay:.3s}
+@keyframes rl-load{
+  0%,100%{transform:scaleY(.35);opacity:.55}
+  50%{transform:scaleY(1);opacity:1}
+}
+
+#ps-loader .ps-pct{
+  margin-top:1.25rem;
+  font-weight:700;
+  font-size:1.1rem;
+  letter-spacing:.12em;
+  color:#0d0b09;
+  text-transform:uppercase;
+}
+#ps-loader .ps-bar{
+  width:300px;
+  max-width:82vw;
+  height:12px;
+  border:3px solid #000;
+  background:#fff;
+  margin-top:.5rem;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+#ps-loader .ps-fill{
+  height:100%;
+  width:0%;
+  background:#ff6d00;
+  transition:width .28s ease-out;
+}
+</style>
+<div id="ps-loader" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading Pushti Sahitya">
+  <div class="ps-glass">
+    <div class="ps-mantra">शास्त्रमवगत्य<br>मनोवाग्देहै:<br>कृष्ण: सेव्य:</div>
+    <div class="rl-loading-container" aria-hidden="true">
+      <div class="rl-loading-thumb rl-loading-thumb-1"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-2"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-3"></div>
+    </div>
+  </div>
+  <div class="ps-pct">LOADING... <span id="ps-pct-num">0</span>%</div>
+  <div class="ps-bar"><div class="ps-fill" id="ps-fill"></div></div>
+</div>
+<script src="loader.js"></script>
+
+
+
+
+
+
+
+
+<div id="site-header"></div>
+  <main id="main" class="page-enter">
+    <section class="section search-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span>→</span>
+          <span aria-current="page">Search Grantha</span>
+        </nav>
+        <h1>Search Grantha</h1>
+        <p class="text-muted">Search TITLE, AUTHOR, LANGUAGE, DISCRIPTION and E-Book fields from Navigation pages.</p>
+        <div class="search-box" role="search">
+          <label class="sr-only" for="search-input">Search</label>
+          <input id="search-input" type="search" placeholder="TITLE, AUTHOR, LANGUAGE, DISCRIPTION…" autocomplete="off" enterkeyhint="search">
+          <button type="button" id="search-clear" aria-label="Clear search">Clear</button>
+        </div>
+        <div class="search-filters" id="search-filters" role="group" aria-label="Filters">
+          <label class="filter-field">
+            <span class="filter-label">LANGUAGE</span>
+            <select id="filter-language" aria-label="LANGUAGE">
+              <option value="">All</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span class="filter-label">E-Book</span>
+            <select id="filter-ebook" aria-label="E-Book">
+              <option value="">All</option>
+              <option value="yes">Available</option>
+              <option value="no">Not available</option>
+            </select>
+          </label>
+          <label class="filter-field">
+            <span class="filter-label">AUTHOR</span>
+            <select id="filter-author" aria-label="AUTHOR">
+              <option value="">All</option>
+            </select>
+          </label>
+        </div>
+        <p id="result-count" aria-live="polite"></p>
+        <div id="grantha-grid" class="grantha-grid" role="list">
+          <div class="empty-state"><p>Loading…</p></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="script.js?v=5.3" defer></script>
+</body>
+</html>

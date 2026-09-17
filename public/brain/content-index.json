@@ -1,0 +1,3205 @@
+{
+  "schema_version": "1.0.0",
+  "source_scope": "public/**/*.html",
+  "page_count": 98,
+  "pages": [
+    {
+      "file": "404.html",
+      "title": "Not Found — Pushti Sahitya Vβeta 5.0",
+      "description": "Not Found — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "This page could not be found."
+        }
+      ],
+      "keywords": [
+        "Not",
+        "Found",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "This",
+        "page",
+        "could"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "about.html",
+      "title": "About — Pushti Sahitya",
+      "description": "About Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "About"
+        },
+        {
+          "level": "h2",
+          "text": "Free Repository of Pushti Sampraday Granthas"
+        },
+        {
+          "level": "h2",
+          "text": "Founder"
+        }
+      ],
+      "keywords": [
+        "About",
+        "Pushti",
+        "Sahitya",
+        "Free",
+        "Repository",
+        "Sampraday",
+        "Granthas",
+        "Founder"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "acharya-gopinathji.html",
+      "title": "Shree Gopinathji — Pushti Sahitya",
+      "description": "Shree Gopinathji — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Gopinathji"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Gopinathji",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "acharya-vallabhacharyaji.html",
+      "title": "Shree Vallabhacharyaji — Pushti Sahitya",
+      "description": "Shree Vallabhacharyaji — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Vallabhacharyaji"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Vallabhacharyaji",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "acharya-vitthalnathji.html",
+      "title": "Shree Vitthalnathji — Pushti Sahitya",
+      "description": "Shree Vitthalnathji — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Vitthalnathji"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Vitthalnathji",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "antahkaran-prabodh.html",
+      "title": "Antahkaran Prabodh — Pushti Sahitya",
+      "description": "Antahkaran Prabodh — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Antahkaran Prabodh"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Antahkaran",
+        "Prabodh",
+        "Pushti",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "anubhasya.html",
+      "title": "Anubhasya — Pushti Sahitya",
+      "description": "Anubhasya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Anubhasya"
+        }
+      ],
+      "keywords": [
+        "Anubhasya",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "anya-sahitya.html",
+      "title": "Bhagwad Seva Sahitya - Pichvai — Pushti Sahitya Vβeta 5.0",
+      "description": "Bhagwad Seva Sahitya - Pichvai, Sanjhi Pictures and Aartis — Pushti Sahitya repository",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Bhagwad Seva Sahitya - Pichvai"
+        },
+        {
+          "level": "h2",
+          "text": "Pichvai"
+        },
+        {
+          "level": "h2",
+          "text": "Sanjhi Pictures"
+        },
+        {
+          "level": "h2",
+          "text": "Aartis"
+        }
+      ],
+      "keywords": [
+        "Bhagwad",
+        "Seva",
+        "Sahitya",
+        "Pichvai",
+        "Pushti",
+        "Vβeta",
+        "Sanjhi",
+        "Pictures",
+        "Aartis"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "articles.html",
+      "title": "Articles — Pushti Sahitya",
+      "description": "Articles — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Articles"
+        }
+      ],
+      "keywords": [
+        "Articles",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "avtarvadavali.html",
+      "title": "Avtarvadavali — Pushti Sahitya",
+      "description": "Avtarvadavali — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Avtarvadavali"
+        }
+      ],
+      "keywords": [
+        "Avtarvadavali",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "balbodh.html",
+      "title": "Balbodh — Pushti Sahitya",
+      "description": "Balbodh — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Balbodh"
+        }
+      ],
+      "keywords": [
+        "Balbodh",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "baldevsharma.html",
+      "title": "Shreenath Seva Raso Dadhi — Shree Baldev Sharma — Pushti Sahitya Vbeta6.0",
+      "description": "Shreenath Seva Raso Dadhi by Shree Baldev Sharma — Utsav Bhavna, Seva and Shringar Pranalika of Shreenathji and Shree Navnitpriyaji. Free digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Utsav Bhavna"
+        }
+      ],
+      "keywords": [
+        "Shreenath",
+        "Seva",
+        "Raso",
+        "Dadhi",
+        "Shree",
+        "Baldev",
+        "Sharma",
+        "Pushti",
+        "Sahitya",
+        "Vbeta6",
+        "Utsav",
+        "Bhavna"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "bhagwat-commentaries.html",
+      "title": "Shreemad Bhagwatam - Various commentaries — Pushti Sahitya",
+      "description": "Shreemad Bhagwatam - Various commentaries — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shreemad Bhagwatam - Various commentaries"
+        }
+      ],
+      "keywords": [
+        "Shreemad",
+        "Bhagwatam",
+        "Various",
+        "commentaries",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "bhagwatarth-prakaran.html",
+      "title": "Shree Bhagwatarth Prakaran — Pushti Sahitya",
+      "description": "Shree Bhagwatarth Prakaran — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Bhagwatarth Prakaran"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Bhagwatarth",
+        "Prakaran",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "bhakti-vardhini.html",
+      "title": "Bhakti Vadhini — Pushti Sahitya",
+      "description": "Bhakti Vadhini — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Bhakti Vadhini"
+        }
+      ],
+      "keywords": [
+        "Bhakti",
+        "Vadhini",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "brahmvaad.html",
+      "title": "Brahmvaad — Pushti Sahitya",
+      "description": "Brahmvaad — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Brahmvaad"
+        }
+      ],
+      "keywords": [
+        "Brahmvaad",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "chatuhshloki.html",
+      "title": "Chatuhshloki — Pushti Sahitya",
+      "description": "Chatuhshloki — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Chatuhshloki"
+        }
+      ],
+      "keywords": [
+        "Chatuhshloki",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "components/footer.html",
+      "title": "",
+      "description": "",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Pushti Sahitya"
+        },
+        {
+          "level": "h4",
+          "text": "Quick Links"
+        },
+        {
+          "level": "h4",
+          "text": "Legal"
+        },
+        {
+          "level": "h4",
+          "text": "Security & Data"
+        },
+        {
+          "level": "h4",
+          "text": "Content"
+        },
+        {
+          "level": "h4",
+          "text": "Support"
+        }
+      ],
+      "keywords": [
+        "Pushti",
+        "Sahitya",
+        "Quick",
+        "Links",
+        "Legal",
+        "Security",
+        "Data",
+        "Content",
+        "Support"
+      ],
+      "scripts": [],
+      "styles": [],
+      "source": "local_html"
+    },
+    {
+      "file": "components/header.html",
+      "title": "",
+      "description": "",
+      "headings": [],
+      "keywords": [],
+      "scripts": [],
+      "styles": [],
+      "source": "local_html"
+    },
+    {
+      "file": "contact.html",
+      "title": "Contact Us — Pushti Sahitya",
+      "description": "Contact Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Contact Us"
+        },
+        {
+          "level": "h2",
+          "text": "Founder"
+        },
+        {
+          "level": "h2",
+          "text": "Contact Us"
+        }
+      ],
+      "keywords": [
+        "Contact",
+        "Pushti",
+        "Sahitya",
+        "Founder"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "copyright.html",
+      "title": "Copyright Policy — Pushti Sahitya",
+      "description": "Copyright Policy — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Copyright Policy"
+        }
+      ],
+      "keywords": [
+        "Copyright",
+        "Policy",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "darshanic.html",
+      "title": "Darshanic — Pushti Sahitya",
+      "description": "Darshanic — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Darshanic"
+        }
+      ],
+      "keywords": [
+        "Darshanic",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "detail.html",
+      "title": "Grantha Detail — Pushti Sahitya Vβeta 5.0",
+      "description": "Grantha Detail — Digital Repository of Pushtimargiya Granthas",
+      "headings": [],
+      "keywords": [
+        "Grantha",
+        "Detail",
+        "Pushti",
+        "Sahitya",
+        "Vβeta"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "disclaimer.html",
+      "title": "Disclaimer — Pushti Sahitya Vβeta 5.0",
+      "description": "Disclaimer — Pushti Sahitya digital repository of Pushtimargiya Granthas (website and PWA).",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Disclaimer"
+        },
+        {
+          "level": "h2",
+          "text": "1. Nature of this service"
+        },
+        {
+          "level": "h2",
+          "text": "2. No professional or religious advice"
+        },
+        {
+          "level": "h2",
+          "text": "3. Accuracy and completeness"
+        },
+        {
+          "level": "h2",
+          "text": "4. Third-party content and external links"
+        },
+        {
+          "level": "h2",
+          "text": "5. Website, PWA, and offline use"
+        },
+        {
+          "level": "h2",
+          "text": "6. Digital Granthapal and search tools"
+        },
+        {
+          "level": "h2",
+          "text": "7. Intellectual property"
+        },
+        {
+          "level": "h2",
+          "text": "8. Limitation of liability"
+        },
+        {
+          "level": "h2",
+          "text": "9. Acceptable use and enforcement"
+        },
+        {
+          "level": "h2",
+          "text": "10. No affiliation disclaimer"
+        },
+        {
+          "level": "h2",
+          "text": "11. Changes"
+        },
+        {
+          "level": "h2",
+          "text": "12. Contact"
+        }
+      ],
+      "keywords": [
+        "Disclaimer",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Nature",
+        "this",
+        "service",
+        "professional",
+        "religious",
+        "advice",
+        "Accuracy",
+        "and",
+        "completeness",
+        "Third-party",
+        "content",
+        "external",
+        "links",
+        "Website",
+        "PWA",
+        "offline",
+        "use",
+        "Digital",
+        "Granthapal",
+        "search",
+        "tools",
+        "Intellectual",
+        "property",
+        "Limitation",
+        "liability",
+        "Acceptable",
+        "enforcement",
+        "affiliation",
+        "Changes",
+        "Contact"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "footer.html",
+      "title": "",
+      "description": "",
+      "headings": [
+        {
+          "level": "h3",
+          "text": "Pushti Sahitya"
+        },
+        {
+          "level": "h4",
+          "text": "Quick Links"
+        },
+        {
+          "level": "h4",
+          "text": "Legal"
+        },
+        {
+          "level": "h4",
+          "text": "Security & Data"
+        },
+        {
+          "level": "h4",
+          "text": "Content"
+        },
+        {
+          "level": "h4",
+          "text": "Support"
+        }
+      ],
+      "keywords": [
+        "Pushti",
+        "Sahitya",
+        "Quick",
+        "Links",
+        "Legal",
+        "Security",
+        "Data",
+        "Content",
+        "Support"
+      ],
+      "scripts": [],
+      "styles": [],
+      "source": "local_html"
+    },
+    {
+      "file": "gayatribhasya.html",
+      "title": "Gayatribhasya — Pushti Sahitya",
+      "description": "Gayatribhasya — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Gayatribhasya"
+        }
+      ],
+      "keywords": [
+        "Gayatribhasya",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "geetopanishad-commentaries.html",
+      "title": "Shree Bhagwad Geetopanishad Commentaries — Pushti Sahitya",
+      "description": "Shree Bhagwad Geetopanishad Commentaries — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Bhagwad Geetopanishad Commentaries"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Bhagwad",
+        "Geetopanishad",
+        "Commentaries",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "granthas.html",
+      "title": "Search Grantha — Pushti Sahitya Vβeta 5.0",
+      "description": "Search Grantha — central searchable index of Pushti Sahitya Navigation pages",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Search Grantha"
+        }
+      ],
+      "keywords": [
+        "Search",
+        "Grantha",
+        "Pushti",
+        "Sahitya",
+        "Vβeta"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "harirai-vangmuktavali.html",
+      "title": "Shree Harirai Vangmuktavali Granthas — Pushti Sahitya",
+      "description": "Shree Harirai Vangmuktavali Granthas — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Harirai Vangmuktavali Granthas"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Harirai",
+        "Vangmuktavali",
+        "Granthas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "header.html",
+      "title": "",
+      "description": "",
+      "headings": [],
+      "keywords": [],
+      "scripts": [],
+      "styles": [],
+      "source": "local_html"
+    },
+    {
+      "file": "index.html",
+      "title": "Pushti Sahitya — Free Repository of Pushti Sampraday Granthas",
+      "description": "Free non-profit digital repository of original Pushtimargiya Granthas of Śrī Vallabhācārya, Śrī Gopīnāthjī, Śrī Viṭṭhalnāthjī and other Ācāryas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Pushti Sahitya"
+        },
+        {
+          "level": "h2",
+          "text": "Free Repository of Pushti Sampraday Granthas"
+        },
+        {
+          "level": "h2",
+          "text": "Recent Updates"
+        },
+        {
+          "level": "h2",
+          "text": "Core Collections"
+        },
+        {
+          "level": "h3",
+          "text": "Ṣoḍaśa Granthas"
+        },
+        {
+          "level": "h3",
+          "text": "Bhāṣya Granthas"
+        },
+        {
+          "level": "h3",
+          "text": "Bhāgavata Commentaries"
+        },
+        {
+          "level": "h2",
+          "text": "Browse the Repository"
+        },
+        {
+          "level": "h3",
+          "text": "By Ācārya"
+        },
+        {
+          "level": "h3",
+          "text": "Manuscripts"
+        },
+        {
+          "level": "h3",
+          "text": "Seva Sāhitya"
+        },
+        {
+          "level": "h3",
+          "text": "Articles & Research"
+        },
+        {
+          "level": "h3",
+          "text": "Misc. Scriptures"
+        },
+        {
+          "level": "h3",
+          "text": "Full Search"
+        },
+        {
+          "level": "h2",
+          "text": "Featured from Ṣoḍaśa Granthas"
+        },
+        {
+          "level": "h3",
+          "text": "Siddhāntarahasyam"
+        },
+        {
+          "level": "h3",
+          "text": "Bālabodha"
+        },
+        {
+          "level": "h3",
+          "text": "Śrī Yamunāṣṭakam"
+        },
+        {
+          "level": "h3",
+          "text": "Catuḥślokī"
+        }
+      ],
+      "keywords": [
+        "Pushti",
+        "Sahitya",
+        "Free",
+        "Repository",
+        "Sampraday",
+        "Granthas",
+        "Recent",
+        "Updates",
+        "Core",
+        "Collections",
+        "Ṣoḍaśa",
+        "Bhāṣya",
+        "Bhāgavata",
+        "Commentaries",
+        "Browse",
+        "the",
+        "Ācārya",
+        "Manuscripts",
+        "Seva",
+        "Sāhitya",
+        "Articles",
+        "Research",
+        "Misc",
+        "Scriptures",
+        "Full",
+        "Search",
+        "Featured",
+        "from",
+        "Siddhāntarahasyam",
+        "Bālabodha",
+        "Śrī",
+        "Yamunāṣṭakam",
+        "Catuḥślokī"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "jalbhed.html",
+      "title": "JalBhed — Pushti Sahitya",
+      "description": "JalBhed — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "JalBhed"
+        }
+      ],
+      "keywords": [
+        "JalBhed",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "jeevan-charitra.html",
+      "title": "Jeevan Charitra — Pushti Sahitya",
+      "description": "Jeevan Charitra — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Jeevan Charitra"
+        }
+      ],
+      "keywords": [
+        "Jeevan",
+        "Charitra",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "kirtan-granthas.html",
+      "title": "Kirtan Granthas — Pushti Sahitya",
+      "description": "Kirtan Granthas — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Kirtan Granthas"
+        }
+      ],
+      "keywords": [
+        "Kirtan",
+        "Granthas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "koshas.html",
+      "title": "Koshas — Pushti Sahitya",
+      "description": "Koshas — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Koshas"
+        }
+      ],
+      "keywords": [
+        "Koshas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "krishna-bhakti.html",
+      "title": "Krishna-Bhakti — Pushti Sahitya",
+      "description": "Krishna-Bhakti — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Krishna-Bhakti"
+        }
+      ],
+      "keywords": [
+        "Krishna-Bhakti",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "krishnashraya.html",
+      "title": "Krishnashraya Stotram — Pushti Sahitya",
+      "description": "Krishnashraya Stotram — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Krishnashraya Stotram"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Krishnashraya",
+        "Stotram",
+        "Pushti",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "leela-chintanarth.html",
+      "title": "Leela Chintanarth — Pushti Sahitya",
+      "description": "Leela Chintanarth — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Leela Chintanarth"
+        }
+      ],
+      "keywords": [
+        "Leela",
+        "Chintanarth",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "magazines.html",
+      "title": "Pushtimargiya Magazines — Pushti Sahitya",
+      "description": "Pushtimargiya Magazines — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Pushtimargiya Magazines"
+        }
+      ],
+      "keywords": [
+        "Pushtimargiya",
+        "Magazines",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "manuscripts.html",
+      "title": "Manuscripts — Pushti Sahitya",
+      "description": "Manuscripts — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Manuscripts"
+        }
+      ],
+      "keywords": [
+        "Manuscripts",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "misc-scriptures.html",
+      "title": "Misc. Scriptures — Pushti Sahitya",
+      "description": "Misc. Scriptures — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Misc. Scriptures"
+        }
+      ],
+      "keywords": [
+        "Misc",
+        "Scriptures",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "naam-patharth.html",
+      "title": "Naam Patharth — Pushti Sahitya",
+      "description": "Naam Patharth — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Naam Patharth"
+        }
+      ],
+      "keywords": [
+        "Naam",
+        "Patharth",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "navratnam.html",
+      "title": "Navratnam — Pushti Sahitya",
+      "description": "Navratnam — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Navratnam"
+        }
+      ],
+      "keywords": [
+        "Navratnam",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "nirodh-lakshanam.html",
+      "title": "Nirodh Lakshanam — Pushti Sahitya",
+      "description": "Nirodh Lakshanam — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Nirodh Lakshanam"
+        }
+      ],
+      "keywords": [
+        "Nirodh",
+        "Lakshanam",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "offline.html",
+      "title": "ઑફલાઇન — પુષ્ટિ સાહિત્ય",
+      "description": "",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "ઈન્ટરનેટ ધીમું છે, કૃપા કરીને ફરી પ્રયાસ કરો"
+        }
+      ],
+      "keywords": [],
+      "scripts": [],
+      "styles": [],
+      "source": "local_html"
+    },
+    {
+      "file": "other-vaad-granthas.html",
+      "title": "Other Vaad Granthas — Pushti Sahitya",
+      "description": "Other Vaad Granthas — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Other Vaad Granthas"
+        }
+      ],
+      "keywords": [
+        "Other",
+        "Vaad",
+        "Granthas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "panch-padhyani.html",
+      "title": "PanchPadhyani — Pushti Sahitya",
+      "description": "PanchPadhyani — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "PanchPadhyani"
+        }
+      ],
+      "keywords": [
+        "PanchPadhyani",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "pancha-shloki.html",
+      "title": "Pancha Shloki — Pushti Sahitya",
+      "description": "Pancha Shloki — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Pancha Shloki"
+        }
+      ],
+      "keywords": [
+        "Pancha",
+        "Shloki",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "patravalambana.html",
+      "title": "Patravalambana — Pushti Sahitya",
+      "description": "Patravalambana — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Patravalambana"
+        }
+      ],
+      "keywords": [
+        "Patravalambana",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/acceptable-use.html",
+      "title": "Acceptable Use Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Acceptable Use Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Acceptable Use Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Purpose"
+        },
+        {
+          "level": "h2",
+          "text": "Allowed"
+        },
+        {
+          "level": "h2",
+          "text": "Strictly prohibited"
+        },
+        {
+          "level": "h2",
+          "text": "Enforcement (stricter)"
+        }
+      ],
+      "keywords": [
+        "Acceptable",
+        "Use",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Purpose",
+        "Allowed",
+        "Strictly",
+        "prohibited",
+        "Enforcement",
+        "stricter"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/accessibility-statement.html",
+      "title": "Accessibility Statement — Pushti Sahitya Vβeta 5.0",
+      "description": "Accessibility Statement — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Accessibility Statement"
+        },
+        {
+          "level": "h2",
+          "text": "Commitment"
+        },
+        {
+          "level": "h2",
+          "text": "Measures"
+        },
+        {
+          "level": "h2",
+          "text": "Known limitations"
+        },
+        {
+          "level": "h2",
+          "text": "Feedback"
+        }
+      ],
+      "keywords": [
+        "Accessibility",
+        "Statement",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Commitment",
+        "Measures",
+        "Known",
+        "limitations",
+        "Feedback"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/consolidated-amendment.html",
+      "title": "Consolidated Policy Amendment — Pushti Sahitya Vβeta 5.0",
+      "description": "Consolidated Policy Amendment — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Consolidated Policy Amendment"
+        },
+        {
+          "level": "h2",
+          "text": "1. Purpose of this Amendment"
+        },
+        {
+          "level": "h2",
+          "text": "2. Zero-tolerance prohibitions"
+        },
+        {
+          "level": "h2",
+          "text": "3. Stricter enforcement measures"
+        },
+        {
+          "level": "h2",
+          "text": "4. Permitted use (unchanged intent, clarified boundary)"
+        },
+        {
+          "level": "h2",
+          "text": "5. Copyright & corpus"
+        },
+        {
+          "level": "h2",
+          "text": "6. Security research"
+        },
+        {
+          "level": "h2",
+          "text": "7. Grievance & contact"
+        },
+        {
+          "level": "h2",
+          "text": "8. Policy index"
+        }
+      ],
+      "keywords": [
+        "Consolidated",
+        "Policy",
+        "Amendment",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Purpose",
+        "this",
+        "Zero-tolerance",
+        "prohibitions",
+        "Stricter",
+        "enforcement",
+        "measures",
+        "Permitted",
+        "use",
+        "unchanged",
+        "intent",
+        "clarified",
+        "boundary",
+        "Copyright",
+        "corpus",
+        "Security",
+        "research",
+        "Grievance",
+        "contact",
+        "index"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/content-usage.html",
+      "title": "Content Usage Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Content Usage Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Content Usage Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Scope"
+        },
+        {
+          "level": "h2",
+          "text": "Permitted"
+        },
+        {
+          "level": "h2",
+          "text": "Not permitted without written permission"
+        },
+        {
+          "level": "h2",
+          "text": "Technical measures"
+        },
+        {
+          "level": "h2",
+          "text": "Enforcement"
+        }
+      ],
+      "keywords": [
+        "Content",
+        "Usage",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Scope",
+        "Permitted",
+        "Not",
+        "without",
+        "written",
+        "permission",
+        "Technical",
+        "measures",
+        "Enforcement"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/cookie-policy.html",
+      "title": "Cookie Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Cookie Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Cookie Policy"
+        },
+        {
+          "level": "h2",
+          "text": "What we use"
+        },
+        {
+          "level": "h2",
+          "text": "Why"
+        },
+        {
+          "level": "h2",
+          "text": "Your control"
+        },
+        {
+          "level": "h2",
+          "text": "Updates"
+        }
+      ],
+      "keywords": [
+        "Cookie",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "What",
+        "use",
+        "Why",
+        "Your",
+        "control",
+        "Updates"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/copyright-ip.html",
+      "title": "Copyright & Intellectual Property Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Copyright & Intellectual Property Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Copyright & Intellectual Property Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Website composition"
+        },
+        {
+          "level": "h2",
+          "text": "Underlying grantha texts"
+        },
+        {
+          "level": "h2",
+          "text": "Fair use and educational use"
+        },
+        {
+          "level": "h2",
+          "text": "Strict prohibition on commercial exploitation"
+        },
+        {
+          "level": "h2",
+          "text": "Reporting concerns"
+        },
+        {
+          "level": "h2",
+          "text": "Attribution"
+        }
+      ],
+      "keywords": [
+        "Copyright",
+        "Intellectual",
+        "Property",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Website",
+        "composition",
+        "Underlying",
+        "grantha",
+        "texts",
+        "Fair",
+        "use",
+        "and",
+        "educational",
+        "Strict",
+        "prohibition",
+        "commercial",
+        "exploitation",
+        "Reporting",
+        "concerns",
+        "Attribution"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/data-policy.html",
+      "title": "Data Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Data Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Data Retention & Deletion Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Scope"
+        },
+        {
+          "level": "h2",
+          "text": "Categories"
+        },
+        {
+          "level": "h2",
+          "text": "Deletion requests"
+        },
+        {
+          "level": "h2",
+          "text": "No user accounts"
+        }
+      ],
+      "keywords": [
+        "Data",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Retention",
+        "Deletion",
+        "Scope",
+        "Categories",
+        "requests",
+        "user",
+        "accounts"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/disclaimer.html",
+      "title": "Disclaimer — Pushti Sahitya Vβeta 5.0",
+      "description": "Disclaimer — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Disclaimer"
+        },
+        {
+          "level": "h2",
+          "text": "Non-official status"
+        },
+        {
+          "level": "h2",
+          "text": "No religious authority"
+        },
+        {
+          "level": "h2",
+          "text": "Content accuracy"
+        },
+        {
+          "level": "h2",
+          "text": "External links"
+        },
+        {
+          "level": "h2",
+          "text": "Liability"
+        }
+      ],
+      "keywords": [
+        "Disclaimer",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Non-official",
+        "status",
+        "religious",
+        "authority",
+        "Content",
+        "accuracy",
+        "External",
+        "links",
+        "Liability"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/grievance.html",
+      "title": "Grievance and Contact Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Grievance and Contact Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Contact / Grievance Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Contact"
+        },
+        {
+          "level": "h2",
+          "text": "Grievance process"
+        },
+        {
+          "level": "h2",
+          "text": "Scope"
+        }
+      ],
+      "keywords": [
+        "Grievance",
+        "and",
+        "Contact",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "process",
+        "Scope"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/privacy-policy.html",
+      "title": "Privacy Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Privacy Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Privacy Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Overview"
+        },
+        {
+          "level": "h2",
+          "text": "Information we may process"
+        },
+        {
+          "level": "h2",
+          "text": "Cookies and similar technologies"
+        },
+        {
+          "level": "h2",
+          "text": "How we use information"
+        },
+        {
+          "level": "h2",
+          "text": "Sharing"
+        },
+        {
+          "level": "h2",
+          "text": "Retention"
+        },
+        {
+          "level": "h2",
+          "text": "Your choices"
+        },
+        {
+          "level": "h2",
+          "text": "Changes"
+        }
+      ],
+      "keywords": [
+        "Privacy",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Overview",
+        "Information",
+        "may",
+        "process",
+        "Cookies",
+        "and",
+        "similar",
+        "technologies",
+        "How",
+        "use",
+        "Sharing",
+        "Retention",
+        "Your",
+        "choices",
+        "Changes"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/security-policy.html",
+      "title": "Security Policy — Pushti Sahitya Vβeta 5.0",
+      "description": "Security Policy — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Security Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Commitment"
+        },
+        {
+          "level": "h2",
+          "text": "Technical controls"
+        },
+        {
+          "level": "h2",
+          "text": "Abuse related to security"
+        },
+        {
+          "level": "h2",
+          "text": "Vulnerability disclosure"
+        },
+        {
+          "level": "h2",
+          "text": "Limitations"
+        }
+      ],
+      "keywords": [
+        "Security",
+        "Policy",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Commitment",
+        "Technical",
+        "controls",
+        "Abuse",
+        "related",
+        "Vulnerability",
+        "disclosure",
+        "Limitations"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/source-editorial-integrity.html",
+      "title": "Source and Editorial Integrity — Pushti Sahitya Vβeta 5.0",
+      "description": "Source and Editorial Integrity — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Source & Editorial Integrity Policy"
+        },
+        {
+          "level": "h2",
+          "text": "Purpose of the repository"
+        },
+        {
+          "level": "h2",
+          "text": "Source material"
+        },
+        {
+          "level": "h2",
+          "text": "Digital presentation and formatting"
+        },
+        {
+          "level": "h2",
+          "text": "Transcription and quotations"
+        },
+        {
+          "level": "h2",
+          "text": "Editorial intervention"
+        },
+        {
+          "level": "h2",
+          "text": "Corrections"
+        },
+        {
+          "level": "h2",
+          "text": "Independence"
+        }
+      ],
+      "keywords": [
+        "Source",
+        "and",
+        "Editorial",
+        "Integrity",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Policy",
+        "Purpose",
+        "the",
+        "repository",
+        "material",
+        "Digital",
+        "presentation",
+        "formatting",
+        "Transcription",
+        "quotations",
+        "intervention",
+        "Corrections",
+        "Independence"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "policies/terms-and-conditions.html",
+      "title": "Terms and Conditions — Pushti Sahitya Vβeta 5.0",
+      "description": "Terms and Conditions — Pushti Sahitya digital repository of Pushtimargiya Granthas.",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Terms & Conditions"
+        },
+        {
+          "level": "h2",
+          "text": "Acceptance"
+        },
+        {
+          "level": "h2",
+          "text": "Nature of the service"
+        },
+        {
+          "level": "h2",
+          "text": "Content and accuracy"
+        },
+        {
+          "level": "h2",
+          "text": "Acceptable use & enforcement"
+        },
+        {
+          "level": "h2",
+          "text": "Intellectual property"
+        },
+        {
+          "level": "h2",
+          "text": "Disclaimers & limitation"
+        },
+        {
+          "level": "h2",
+          "text": "Changes"
+        },
+        {
+          "level": "h2",
+          "text": "Contact"
+        }
+      ],
+      "keywords": [
+        "Terms",
+        "and",
+        "Conditions",
+        "Pushti",
+        "Sahitya",
+        "Vβeta",
+        "Acceptance",
+        "Nature",
+        "the",
+        "service",
+        "Content",
+        "accuracy",
+        "Acceptable",
+        "use",
+        "enforcement",
+        "Intellectual",
+        "property",
+        "Disclaimers",
+        "limitation",
+        "Changes",
+        "Contact"
+      ],
+      "scripts": [
+        "../loader.js",
+        "../script.js?v=5.3"
+      ],
+      "styles": [
+        "../style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "prakirna-granthas.html",
+      "title": "Prakirna Granthas — Pushti Sahitya",
+      "description": "Prakirna Granthas — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Prakirna Granthas"
+        }
+      ],
+      "keywords": [
+        "Prakirna",
+        "Granthas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "prasthaan-ratnaakar.html",
+      "title": "Prasthaan Ratnaakar — Pushti Sahitya",
+      "description": "Prasthaan Ratnaakar — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Prasthaan Ratnaakar"
+        }
+      ],
+      "keywords": [
+        "Prasthaan",
+        "Ratnaakar",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "puranic.html",
+      "title": "Puranic — Pushti Sahitya",
+      "description": "Puranic — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Puranic"
+        }
+      ],
+      "keywords": [
+        "Puranic",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "purva-mimamsa-bhasya.html",
+      "title": "Purva Mimamsa bhasya — Pushti Sahitya",
+      "description": "Purva Mimamsa bhasya — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Purva Mimamsa bhasya"
+        }
+      ],
+      "keywords": [
+        "Purva",
+        "Mimamsa",
+        "bhasya",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "pushti-pravaha-maryada.html",
+      "title": "Pushti Pravaha Maryada Bhed — Pushti Sahitya",
+      "description": "Pushti Pravaha Maryada Bhed — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Pushti Pravaha Maryada Bhed"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Pushti",
+        "Pravaha",
+        "Maryada",
+        "Bhed",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "rup-varanarth.html",
+      "title": "Rup Varanarth — Pushti Sahitya",
+      "description": "Rup Varanarth — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Rup Varanarth"
+        }
+      ],
+      "keywords": [
+        "Rup",
+        "Varanarth",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "samagri-paak.html",
+      "title": "Samagri-Paak — Pushti Sahitya",
+      "description": "Samagri-Paak — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Samagri-Paak"
+        }
+      ],
+      "keywords": [
+        "Samagri-Paak",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sampraday-pradeep.html",
+      "title": "Sampraday Pradeep — Pushti Sahitya",
+      "description": "Sampraday Pradeep — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sampraday Pradeep"
+        }
+      ],
+      "keywords": [
+        "Sampraday",
+        "Pradeep",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sanskrit-misc.html",
+      "title": "Miscelleneous — Pushti Sahitya",
+      "description": "Miscelleneous — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Miscelleneous"
+        }
+      ],
+      "keywords": [
+        "Miscelleneous",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sanskrit.html",
+      "title": "Sanskrit — Pushti Sahitya",
+      "description": "Sanskrit — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sanskrit"
+        }
+      ],
+      "keywords": [
+        "Sanskrit",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sanyas-nirnaya.html",
+      "title": "Sanyas Nirnaya — Pushti Sahitya",
+      "description": "Sanyas Nirnaya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sanyas Nirnaya"
+        }
+      ],
+      "keywords": [
+        "Sanyas",
+        "Nirnaya",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sarvanirnaya-prakaran.html",
+      "title": "Sarvanirnaya Prakaran — Pushti Sahitya",
+      "description": "Sarvanirnaya Prakaran — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sarvanirnaya Prakaran"
+        }
+      ],
+      "keywords": [
+        "Sarvanirnaya",
+        "Prakaran",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "seva-sahitya.html",
+      "title": "Seva Sahitya — Pushti Sahitya",
+      "description": "Seva Sahitya — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Seva Sahitya"
+        }
+      ],
+      "keywords": [
+        "Seva",
+        "Sahitya",
+        "Pushti"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "seva-vidhi.html",
+      "title": "Seva Vidhi — Pushti Sahitya",
+      "description": "Seva Vidhi — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Seva Vidhi"
+        }
+      ],
+      "keywords": [
+        "Seva",
+        "Vidhi",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sevafalam.html",
+      "title": "Sevafalam — Pushti Sahitya",
+      "description": "Sevafalam — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sevafalam"
+        }
+      ],
+      "keywords": [
+        "Sevafalam",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "shastrarth-prakaran.html",
+      "title": "Shastrarth Prakaran — Pushti Sahitya",
+      "description": "Shastrarth Prakaran — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shastrarth Prakaran"
+        }
+      ],
+      "keywords": [
+        "Shastrarth",
+        "Prakaran",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "shiksha-shloki.html",
+      "title": "Shiksha Shloki — Pushti Sahitya",
+      "description": "Shiksha Shloki — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shiksha Shloki"
+        }
+      ],
+      "keywords": [
+        "Shiksha",
+        "Shloki",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "shodash-granthas.html",
+      "title": "Shodash Granthas — Pushti Sahitya",
+      "description": "Shodash Granthas — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shodash Granthas"
+        }
+      ],
+      "keywords": [
+        "Shodash",
+        "Granthas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "shree-subodhini.html",
+      "title": "Shree Subodhini — Pushti Sahitya",
+      "description": "Shree Subodhini — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Subodhini"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Subodhini",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "shringar-sahitya.html",
+      "title": "Shringar Sahitya — Pushti Sahitya Vβeta 5.0",
+      "description": "Shringar Sahitya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shringar Sahitya"
+        }
+      ],
+      "keywords": [
+        "Shringar",
+        "Sahitya",
+        "Pushti",
+        "Vβeta"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "shuksma-tika.html",
+      "title": "Shuksma Tika — Pushti Sahitya",
+      "description": "Shuksma Tika — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shuksma Tika"
+        }
+      ],
+      "keywords": [
+        "Shuksma",
+        "Tika",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "siddhant-muktavali.html",
+      "title": "Siddhant Muktavali — Pushti Sahitya",
+      "description": "Siddhant Muktavali — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Siddhant Muktavali"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Siddhant",
+        "Muktavali",
+        "Pushti",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "siddhant-rahasyam.html",
+      "title": "Siddhant Rahasyam — Pushti Sahitya",
+      "description": "Siddhant Rahasyam — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Siddhant Rahasyam"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Siddhant",
+        "Rahasyam",
+        "Pushti",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "sitemap.html",
+      "title": "Sitemap — Pushti Sahitya",
+      "description": "Complete sitemap of Pushti Sahitya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Sitemap"
+        },
+        {
+          "level": "h2",
+          "text": "Home & Core"
+        },
+        {
+          "level": "h2",
+          "text": "Acharyas"
+        },
+        {
+          "level": "h2",
+          "text": "Ṣoḍaśa Granthas (Shodash Granthas)"
+        },
+        {
+          "level": "h2",
+          "text": "Tatvarth Deep Nibandh"
+        },
+        {
+          "level": "h2",
+          "text": "Bhasya Granthas"
+        },
+        {
+          "level": "h2",
+          "text": "Bhagwat Commentaries"
+        },
+        {
+          "level": "h2",
+          "text": "Other Philosophical & Scriptural Works"
+        },
+        {
+          "level": "h2",
+          "text": "Seva Sahitya"
+        },
+        {
+          "level": "h2",
+          "text": "Categories & Collections"
+        },
+        {
+          "level": "h2",
+          "text": "Policies & Legal"
+        },
+        {
+          "level": "h2",
+          "text": "Utility"
+        }
+      ],
+      "keywords": [
+        "Sitemap",
+        "Pushti",
+        "Sahitya",
+        "Home",
+        "Core",
+        "Acharyas",
+        "Ṣoḍaśa",
+        "Granthas",
+        "Shodash",
+        "Tatvarth",
+        "Deep",
+        "Nibandh",
+        "Bhasya",
+        "Bhagwat",
+        "Commentaries",
+        "Other",
+        "Philosophical",
+        "Scriptural",
+        "Works",
+        "Seva",
+        "Categories",
+        "Collections",
+        "Policies",
+        "Legal",
+        "Utility"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "subscribe.html",
+      "title": "Subscribe — Pushti Sahitya",
+      "description": "Subscribe — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Subscribe"
+        }
+      ],
+      "keywords": [
+        "Subscribe",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "tatva-chintanarth.html",
+      "title": "Tatva Chintanarth — Pushti Sahitya",
+      "description": "Tatva Chintanarth — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Tatva Chintanarth"
+        }
+      ],
+      "keywords": [
+        "Tatva",
+        "Chintanarth",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "utsav-bhavna.html",
+      "title": "Utsav Bhavna — Pushti Sahitya",
+      "description": "Utsav Bhavna — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Utsav Bhavna"
+        }
+      ],
+      "keywords": [
+        "Utsav",
+        "Bhavna",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vaad-granthas.html",
+      "title": "Vaad Granthas — Pushti Sahitya",
+      "description": "Vaad Granthas — Pushti Sahitya",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vaad Granthas"
+        }
+      ],
+      "keywords": [
+        "Vaad",
+        "Granthas",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vaarta-sahitya.html",
+      "title": "Vaarta Sahitya — Pushti Sahitya",
+      "description": "Vaarta Sahitya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vaarta Sahitya"
+        }
+      ],
+      "keywords": [
+        "Vaarta",
+        "Sahitya",
+        "Pushti"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vachanamruts.html",
+      "title": "Vachanamruts — Pushti Sahitya",
+      "description": "Vachanamruts — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vachanamruts"
+        }
+      ],
+      "keywords": [
+        "Vachanamruts",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vanshavali.html",
+      "title": "Shree Vallabhacharyaji Vanshavali — Pushti Sahitya",
+      "description": "Shree Vallabhacharyaji Vanshavali — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Vallabhacharyaji Vanshavali"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Vallabhacharyaji",
+        "Vanshavali",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vastra-sahitya.html",
+      "title": "Vastra Sahitya — Pushti Sahitya Vβeta 5.0",
+      "description": "Vastra Sahitya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vastra Sahitya"
+        }
+      ],
+      "keywords": [
+        "Vastra",
+        "Sahitya",
+        "Pushti",
+        "Vβeta"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vedic.html",
+      "title": "Vedic — Pushti Sahitya",
+      "description": "Vedic — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vedic"
+        }
+      ],
+      "keywords": [
+        "Vedic",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vivek-dhairya-ashraya.html",
+      "title": "Vivek Dhairya Ashraya — Pushti Sahitya",
+      "description": "Vivek Dhairya Ashraya — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vivek Dhairya Ashraya"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Vivek",
+        "Dhairya",
+        "Ashraya",
+        "Pushti",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "vyakarana.html",
+      "title": "Vyakarana — Pushti Sahitya",
+      "description": "Vyakarana — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Vyakarana"
+        }
+      ],
+      "keywords": [
+        "Vyakarana",
+        "Pushti",
+        "Sahitya"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    },
+    {
+      "file": "yamunashtakam.html",
+      "title": "Shree Yamunashtakam — Pushti Sahitya",
+      "description": "Shree Yamunashtakam — Digital Repository of Pushtimargiya Granthas",
+      "headings": [
+        {
+          "level": "h1",
+          "text": "Shree Yamunashtakam"
+        },
+        {
+          "level": "h2",
+          "text": "Explanation"
+        }
+      ],
+      "keywords": [
+        "Shree",
+        "Yamunashtakam",
+        "Pushti",
+        "Sahitya",
+        "Explanation"
+      ],
+      "scripts": [
+        "loader.js",
+        "script.js?v=5.3"
+      ],
+      "styles": [
+        "style.css"
+      ],
+      "source": "local_html"
+    }
+  ]
+}

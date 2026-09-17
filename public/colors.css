@@ -1,0 +1,39 @@
+/* PUSHTI SAHITYA — Vβeta 5.0 · Pop Art Design System */
+:root {
+  --color-orange: #FF3B1F;
+  --color-orange-dark: #D10000;
+  --color-orange-light: #FF6B4A;
+  --color-indigo: #1A1A6E;
+  --color-indigo-deep: #0D0D3A;
+  --color-indigo-soft: #3D3DB0;
+
+  --color-bg: #FFF8E7;
+  --color-bg-muted: #FFE566;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #FFF0F5;
+  --color-border: #111111;
+  --color-border-strong: #000000;
+
+  --color-text: #111111;
+  --color-text-muted: #333333;
+  --color-text-faint: #555555;
+  --color-text-on-orange: #FFFFFF;
+  --color-text-on-dark: #FFFFFF;
+
+  --color-primary: #FF0080;
+  --color-primary-soft: #FF4DA6;
+  --color-link: #0066FF;
+  --color-cyan: #00C2FF;
+  --color-yellow: #FFE566;
+  --color-magenta: #FF0080;
+  --color-lime: #B8FF3D;
+
+  --shadow-sm: 3px 3px 0 #111111;
+  --shadow-md: 5px 5px 0 #111111;
+  --shadow-lg: 8px 8px 0 #111111;
+  --shadow-glow: 0 0 0 3px #FF0080;
+
+  --glass-bg: #FFFFFF;
+  --glass-border: #111111;
+  --glass-blur: 0px;
+}

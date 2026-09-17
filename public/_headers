@@ -1,0 +1,46 @@
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  X-XSS-Protection: 0
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-src 'self' https://docs.google.com https://www.youtube.com https://youtube.com https://www.youtube-nocookie.com; child-src 'self' https://docs.google.com; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'; upgrade-insecure-requests
+
+/*.html
+  Cache-Control: public, max-age=300, must-revalidate
+
+/style.css
+  Cache-Control: public, max-age=604800, immutable
+/colors.css
+  Cache-Control: public, max-age=604800, immutable
+/script.js
+  Cache-Control: public, max-age=604800, immutable
+/protection.js
+  Cache-Control: public, max-age=604800, immutable
+/digital-granthapal-v61.js
+  Cache-Control: public, max-age=604800, immutable
+/digital-granthapal-v62.js
+  Cache-Control: public, max-age=604800, immutable
+/digital-granthapal-v61.css
+  Cache-Control: public, max-age=604800, immutable
+/digital-granthapal-v62.css
+  Cache-Control: public, max-age=604800, immutable
+/*.json
+  Cache-Control: public, max-age=300
+/images/*
+  Cache-Control: public, max-age=2592000, immutable
+
+/manifest.webmanifest
+  Cache-Control: public, max-age=86400
+  Content-Type: application/manifest+json
+
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/data/*
+  Cache-Control: public, max-age=300
+/reports/*
+  Cache-Control: public, max-age=300

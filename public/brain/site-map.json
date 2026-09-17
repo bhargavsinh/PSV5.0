@@ -1,0 +1,1090 @@
+{
+  "site_version": "Vβeta 5.0",
+  "generated_from": [
+    "public/data/nav-map.json",
+    "public/**/*.html"
+  ],
+  "source_of_truth": "local project files",
+  "external_knowledge": false,
+  "page_count": 98,
+  "pages": [
+    {
+      "file": "404.html",
+      "path": "/404.html",
+      "title": "Not Found — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "c2950e5586d84f32167dee787150df808a4773e1645f1db9fad265a8c2bdc607",
+      "headings_count": 1
+    },
+    {
+      "file": "about.html",
+      "path": "/about.html",
+      "title": "About — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "4e0b55e7b01508d46d531349a8843fccd97f85a6199ced7e0168bbaf1d807e8d",
+      "headings_count": 3
+    },
+    {
+      "file": "acharya-gopinathji.html",
+      "path": "/acharya-gopinathji.html",
+      "title": "Shree Gopinathji — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "de9b0bec485e20ae246bbb57f6f71a75a53273a17a3fee7a67f815dddbcc0e04",
+      "headings_count": 1
+    },
+    {
+      "file": "acharya-vallabhacharyaji.html",
+      "path": "/acharya-vallabhacharyaji.html",
+      "title": "Shree Vallabhacharyaji — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "49faa9e887db3760ad7590e401b7daed5d9667e07c37c7e6d64a03f6aab48153",
+      "headings_count": 1
+    },
+    {
+      "file": "acharya-vitthalnathji.html",
+      "path": "/acharya-vitthalnathji.html",
+      "title": "Shree Vitthalnathji — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "0db24d1466b875e629ebaae5c3062d39301ef25fbc7ae4b1668b36031b169f02",
+      "headings_count": 1
+    },
+    {
+      "file": "antahkaran-prabodh.html",
+      "path": "/antahkaran-prabodh.html",
+      "title": "Antahkaran Prabodh — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "f5a41e051314fdc631c98841b56a3a9de418fd53adfb411f7d8bf05b8fcc4cb2",
+      "headings_count": 2
+    },
+    {
+      "file": "anubhasya.html",
+      "path": "/anubhasya.html",
+      "title": "Anubhasya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "6d74a3e6605053ced2f0e881dd0be2a6e1a443e70a5b6e5371d012c0ce438d53",
+      "headings_count": 1
+    },
+    {
+      "file": "anya-sahitya.html",
+      "path": "/anya-sahitya.html",
+      "title": "Bhagwad Seva Sahitya - Pichvai — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "7e1532c692f4c86d2381d2ddf7517379e4af527ef5a0374c5747ba44950e837f",
+      "headings_count": 4
+    },
+    {
+      "file": "articles.html",
+      "path": "/articles.html",
+      "title": "Articles — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "bfd6b47f28ce1bf919bfc96a6b44a9ba6926db97f415438d582a5f2b5bd0f453",
+      "headings_count": 1
+    },
+    {
+      "file": "avtarvadavali.html",
+      "path": "/avtarvadavali.html",
+      "title": "Avtarvadavali — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "f7b22e061a93ce38648456bf8a9c8a657524f43d8f074a79953bf25ca83a75b5",
+      "headings_count": 1
+    },
+    {
+      "file": "balbodh.html",
+      "path": "/balbodh.html",
+      "title": "Balbodh — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "d27b8d3819febfd64f83bed1ead3dacd4594913c2089de6d51166739e8d22def",
+      "headings_count": 1
+    },
+    {
+      "file": "baldevsharma.html",
+      "path": "/baldevsharma.html",
+      "title": "Shreenath Seva Raso Dadhi — Shree Baldev Sharma — Pushti Sahitya Vbeta6.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "7a915c340984d80b89044290db203fc246e2507aced0cd9e2428ffa30af02aa1",
+      "headings_count": 1
+    },
+    {
+      "file": "bhagwat-commentaries.html",
+      "path": "/bhagwat-commentaries.html",
+      "title": "Shreemad Bhagwatam - Various commentaries — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "a3c34163f2f11c9ccf53a94cc04f6c66988e50bf5817dddcbf4ef847b8da00b3",
+      "headings_count": 1
+    },
+    {
+      "file": "bhagwatarth-prakaran.html",
+      "path": "/bhagwatarth-prakaran.html",
+      "title": "Shree Bhagwatarth Prakaran — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "8c27f197e185f9cbefa36c7842c0cf76f888032eb4b0192d84b6c766b931eb87",
+      "headings_count": 1
+    },
+    {
+      "file": "bhakti-vardhini.html",
+      "path": "/bhakti-vardhini.html",
+      "title": "Bhakti Vadhini — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "d7be8cdf632cbd713401991556164d3aebefaa1cbc76f8b64916ed51ee050c6e",
+      "headings_count": 1
+    },
+    {
+      "file": "brahmvaad.html",
+      "path": "/brahmvaad.html",
+      "title": "Brahmvaad — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "d3b61e65e91fe656207b3ca4bc7eaef5e618941d7bd7a427a7403d9aea57f18f",
+      "headings_count": 1
+    },
+    {
+      "file": "chatuhshloki.html",
+      "path": "/chatuhshloki.html",
+      "title": "Chatuhshloki — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "df38989f06642738a057f01d3714e707c4398f808d15b7eec4fe6e466b0b3a8a",
+      "headings_count": 1
+    },
+    {
+      "file": "components/footer.html",
+      "path": "/components/footer.html",
+      "title": "",
+      "type": "component",
+      "source": "local_html",
+      "sha256": "a9d0e816570b410de30b1882abf28efd8f99059609a6fac5e8ad67087f456da8",
+      "headings_count": 6
+    },
+    {
+      "file": "components/header.html",
+      "path": "/components/header.html",
+      "title": "",
+      "type": "component",
+      "source": "local_html",
+      "sha256": "cbb6e2dd122dfb5f406cf0f9419bf61036806fd27ae908cb16507fd6cdb8d554",
+      "headings_count": 0
+    },
+    {
+      "file": "contact.html",
+      "path": "/contact.html",
+      "title": "Contact Us — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "31696d3fcc8460e1b9e15342efb41ef524724786dffc02846dfcecb27862265d",
+      "headings_count": 3
+    },
+    {
+      "file": "copyright.html",
+      "path": "/copyright.html",
+      "title": "Copyright Policy — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "24179ec19740452eb8f18fdebdd5cbbf0226c0ae5b3662a9d5850e42a3d95693",
+      "headings_count": 1
+    },
+    {
+      "file": "darshanic.html",
+      "path": "/darshanic.html",
+      "title": "Darshanic — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "857c2aa82e14fd981547a42315858f3f715b2c0f1bf0dded7313dd955462b266",
+      "headings_count": 1
+    },
+    {
+      "file": "detail.html",
+      "path": "/detail.html",
+      "title": "Grantha Detail — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "3e04649a05aa2ac883ecc0b650cfa339cac8f21d2f7d69d22a4c8677e41fd2c1",
+      "headings_count": 0
+    },
+    {
+      "file": "disclaimer.html",
+      "path": "/disclaimer.html",
+      "title": "Disclaimer — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "4c1bf91befaad997a0a5674b20d8dfba792e0134c1bb029b7bbb245009189408",
+      "headings_count": 13
+    },
+    {
+      "file": "footer.html",
+      "path": "/footer.html",
+      "title": "",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "614c892766e3c91b07a713df838e474086e817b6a97bd4154e60d6d9ef21ed4b",
+      "headings_count": 6
+    },
+    {
+      "file": "gayatribhasya.html",
+      "path": "/gayatribhasya.html",
+      "title": "Gayatribhasya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "6367dcfebe2f67bcdf724bc66e7e81baa8c166d62fde08e86b82204ffa781d4a",
+      "headings_count": 1
+    },
+    {
+      "file": "geetopanishad-commentaries.html",
+      "path": "/geetopanishad-commentaries.html",
+      "title": "Shree Bhagwad Geetopanishad Commentaries — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "5926da73f22b1176c5087accfcf0a1f55c42e3d1bb833afc02370d244e4155bc",
+      "headings_count": 1
+    },
+    {
+      "file": "granthas.html",
+      "path": "/granthas.html",
+      "title": "Search Grantha — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "cf83a4ec7f5faf0a2bcfda7d7831d318fc401248f58788d3788821f73d9c8a37",
+      "headings_count": 1
+    },
+    {
+      "file": "harirai-vangmuktavali.html",
+      "path": "/harirai-vangmuktavali.html",
+      "title": "Shree Harirai Vangmuktavali Granthas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "2d5cffcacec78f2959c6871d711a2ccb1ac79d71fe822794d9ba68ba8e0eff85",
+      "headings_count": 1
+    },
+    {
+      "file": "header.html",
+      "path": "/header.html",
+      "title": "",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "cbb6e2dd122dfb5f406cf0f9419bf61036806fd27ae908cb16507fd6cdb8d554",
+      "headings_count": 0
+    },
+    {
+      "file": "index.html",
+      "path": "/index.html",
+      "title": "Pushti Sahitya — Free Repository of Pushti Sampraday Granthas",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "629363191151f50e596d3fb466c58c83e2e1c3dc2b3a9301687aec5a393b6578",
+      "headings_count": 19
+    },
+    {
+      "file": "jalbhed.html",
+      "path": "/jalbhed.html",
+      "title": "JalBhed — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "5c3535322799f7e1bca40cb763c6cd7366a76e5a47e1f58534a1d7550a8f14c4",
+      "headings_count": 1
+    },
+    {
+      "file": "jeevan-charitra.html",
+      "path": "/jeevan-charitra.html",
+      "title": "Jeevan Charitra — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "31d2be810557dae0f87c1e2a2e78ba4d74bc6e1058d32080b97119ccd00cc9e4",
+      "headings_count": 1
+    },
+    {
+      "file": "kirtan-granthas.html",
+      "path": "/kirtan-granthas.html",
+      "title": "Kirtan Granthas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "aaea15fa1ee8a5e9745bd27fdbcc348208325a5f830f379ebfb3dcd1a57a5891",
+      "headings_count": 1
+    },
+    {
+      "file": "koshas.html",
+      "path": "/koshas.html",
+      "title": "Koshas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "941c2a35c99f3a375c204b2d06ab295d8ae1e68d210858e7546b742dce5f118c",
+      "headings_count": 1
+    },
+    {
+      "file": "krishna-bhakti.html",
+      "path": "/krishna-bhakti.html",
+      "title": "Krishna-Bhakti — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "20837f16655cf824be9b80a642c6dddcadd25aa4eda449f497ab956502765cc1",
+      "headings_count": 1
+    },
+    {
+      "file": "krishnashraya.html",
+      "path": "/krishnashraya.html",
+      "title": "Krishnashraya Stotram — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "daff4d2eed6d4479894f6b9b84aff1437bc68a3f4093f7bd4813f5f164d8f0f3",
+      "headings_count": 2
+    },
+    {
+      "file": "leela-chintanarth.html",
+      "path": "/leela-chintanarth.html",
+      "title": "Leela Chintanarth — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "4ccb048361390daa16478f5b4ec72632463dfe511589639e833ef3d9452486bc",
+      "headings_count": 1
+    },
+    {
+      "file": "magazines.html",
+      "path": "/magazines.html",
+      "title": "Pushtimargiya Magazines — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "ebda2f64e778adab824947851f6c1675f7ba8dcf50bfa3750b09928820c85853",
+      "headings_count": 1
+    },
+    {
+      "file": "manuscripts.html",
+      "path": "/manuscripts.html",
+      "title": "Manuscripts — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "433181b8e62426e0f8822ed1eb352624e396a4a64932091dbfbd50d3acc7c8c8",
+      "headings_count": 1
+    },
+    {
+      "file": "misc-scriptures.html",
+      "path": "/misc-scriptures.html",
+      "title": "Misc. Scriptures — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "366eea0833f228e88619eb230c9a4baf5933344ac8917bd94d02eb06ac49afd2",
+      "headings_count": 1
+    },
+    {
+      "file": "naam-patharth.html",
+      "path": "/naam-patharth.html",
+      "title": "Naam Patharth — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "70d8520dc94e57417116fda4aa96262ca47392e0af89bed3c95bb7eda1f1ccc7",
+      "headings_count": 1
+    },
+    {
+      "file": "navratnam.html",
+      "path": "/navratnam.html",
+      "title": "Navratnam — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "e04a879eae5012898317ca826b7ab3660e85594303ecbad95050a96a1870bdaf",
+      "headings_count": 1
+    },
+    {
+      "file": "nirodh-lakshanam.html",
+      "path": "/nirodh-lakshanam.html",
+      "title": "Nirodh Lakshanam — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "4c7e24b093dd81c2023ee24355898bd5d185dcdf6b18195ca2d52238f7bd327c",
+      "headings_count": 1
+    },
+    {
+      "file": "offline.html",
+      "path": "/offline.html",
+      "title": "ઑફલાઇન — પુષ્ટિ સાહિત્ય",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "f7f6ad2038f5af95b1c6d2995efce8e2da7a6bb108b943a33d40e24847d3811d",
+      "headings_count": 1
+    },
+    {
+      "file": "other-vaad-granthas.html",
+      "path": "/other-vaad-granthas.html",
+      "title": "Other Vaad Granthas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "d95e31b5a529c3ef500366ea55d799accb2c2a764db9fa1af5b1eb676e7d0a22",
+      "headings_count": 1
+    },
+    {
+      "file": "panch-padhyani.html",
+      "path": "/panch-padhyani.html",
+      "title": "PanchPadhyani — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "b2db943d2ecb0a9a3ff456528e394f54b41583575835c4e44f4fe8cb14b3e425",
+      "headings_count": 1
+    },
+    {
+      "file": "pancha-shloki.html",
+      "path": "/pancha-shloki.html",
+      "title": "Pancha Shloki — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "6159944bc3a20cd022875e2bcfb55852c35042d376ed558cac7f7b5f795efd95",
+      "headings_count": 1
+    },
+    {
+      "file": "patravalambana.html",
+      "path": "/patravalambana.html",
+      "title": "Patravalambana — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "7e2b628b10c2596faf01e5aa18de44ec5619155263a01aba9db0d4005770d6c7",
+      "headings_count": 1
+    },
+    {
+      "file": "policies/acceptable-use.html",
+      "path": "/policies/acceptable-use.html",
+      "title": "Acceptable Use Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "493d570ae52574b8138fc69456bf57b52c2fb8db3609d07b6c9f2d753fdec4b9",
+      "headings_count": 5
+    },
+    {
+      "file": "policies/accessibility-statement.html",
+      "path": "/policies/accessibility-statement.html",
+      "title": "Accessibility Statement — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "f8ddae81eb6e30cc53650ea1dd8c336baadbffefa0366f058cd0e3d07082210d",
+      "headings_count": 5
+    },
+    {
+      "file": "policies/consolidated-amendment.html",
+      "path": "/policies/consolidated-amendment.html",
+      "title": "Consolidated Policy Amendment — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "3ec3f8620dd9abd3ae17e0f9609b5c83a9f21d20dd8fa140d73b31de0c5ba325",
+      "headings_count": 9
+    },
+    {
+      "file": "policies/content-usage.html",
+      "path": "/policies/content-usage.html",
+      "title": "Content Usage Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "5100bb70d60bfde116d6a5fcf05a12d66e3aa6361be099490df347ea61497375",
+      "headings_count": 6
+    },
+    {
+      "file": "policies/cookie-policy.html",
+      "path": "/policies/cookie-policy.html",
+      "title": "Cookie Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "fc97915137bd2a9d16154601dcef330b69e934982688f1e4b38a99fc6981e7f0",
+      "headings_count": 5
+    },
+    {
+      "file": "policies/copyright-ip.html",
+      "path": "/policies/copyright-ip.html",
+      "title": "Copyright & Intellectual Property Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "e50b0b7b8875ca87a664dcb50501552a87d6a07d78aaf3e14c93baf34c18010e",
+      "headings_count": 7
+    },
+    {
+      "file": "policies/data-policy.html",
+      "path": "/policies/data-policy.html",
+      "title": "Data Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "f4ce384b4616bf592f7346eff2b7396571bf5b2105812ccabccf8cac50c7ff4e",
+      "headings_count": 5
+    },
+    {
+      "file": "policies/disclaimer.html",
+      "path": "/policies/disclaimer.html",
+      "title": "Disclaimer — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "145b3596c88c3abe5f3125f3c09f3d81300a90b87c21c0f154da8efc175cb774",
+      "headings_count": 6
+    },
+    {
+      "file": "policies/grievance.html",
+      "path": "/policies/grievance.html",
+      "title": "Grievance and Contact Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "e5fe98716ee29deb7290596917f2e82fec1fd79fa928a8a38ce40eebfc69ffbe",
+      "headings_count": 4
+    },
+    {
+      "file": "policies/privacy-policy.html",
+      "path": "/policies/privacy-policy.html",
+      "title": "Privacy Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "d0dd067e43c966a82d7488d0f093be8caabee2255ef0a1be2330bb57e8bdab56",
+      "headings_count": 9
+    },
+    {
+      "file": "policies/security-policy.html",
+      "path": "/policies/security-policy.html",
+      "title": "Security Policy — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "9a4be6b8d94e0913abfd807dda241eaa1dce2634185a05dd9f1c9274bb27442f",
+      "headings_count": 6
+    },
+    {
+      "file": "policies/source-editorial-integrity.html",
+      "path": "/policies/source-editorial-integrity.html",
+      "title": "Source and Editorial Integrity — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "5ee67dc7bc866ff314056c84537ae2cf56a6e424cf6344e444daa52bb21e21c5",
+      "headings_count": 8
+    },
+    {
+      "file": "policies/terms-and-conditions.html",
+      "path": "/policies/terms-and-conditions.html",
+      "title": "Terms and Conditions — Pushti Sahitya Vβeta 5.0",
+      "type": "policy",
+      "source": "local_html",
+      "sha256": "68a03d3c230a32049f3e46c0152b194ced2a3836878b2c66fa9881f780794233",
+      "headings_count": 9
+    },
+    {
+      "file": "prakirna-granthas.html",
+      "path": "/prakirna-granthas.html",
+      "title": "Prakirna Granthas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "9d04c41f606b898422045ff1c267acdf5a81819d11eb3f1231ce6cfbe8543e05",
+      "headings_count": 1
+    },
+    {
+      "file": "prasthaan-ratnaakar.html",
+      "path": "/prasthaan-ratnaakar.html",
+      "title": "Prasthaan Ratnaakar — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "1e76b585a6c97cd3b9cb2b89a9b29adf07346e175da0a86454aed3638b3ceb29",
+      "headings_count": 1
+    },
+    {
+      "file": "puranic.html",
+      "path": "/puranic.html",
+      "title": "Puranic — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "994368bf9024da1b0a2a80bd9ee689287e8fb51d12b76d1f47b3dc53cd451550",
+      "headings_count": 1
+    },
+    {
+      "file": "purva-mimamsa-bhasya.html",
+      "path": "/purva-mimamsa-bhasya.html",
+      "title": "Purva Mimamsa bhasya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "c331a976343acf9c42555f4777ed2c18f23533dca592f8c466147863e8a56bcd",
+      "headings_count": 1
+    },
+    {
+      "file": "pushti-pravaha-maryada.html",
+      "path": "/pushti-pravaha-maryada.html",
+      "title": "Pushti Pravaha Maryada Bhed — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "febc14553e4f93cb190a06f63dd4c9d363442c334d5127b8725e01e4b7bd9dd4",
+      "headings_count": 2
+    },
+    {
+      "file": "rup-varanarth.html",
+      "path": "/rup-varanarth.html",
+      "title": "Rup Varanarth — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "127d728c580211a7491ba4d3f668982843673ab2f8d6752611e793bed1f931c8",
+      "headings_count": 1
+    },
+    {
+      "file": "samagri-paak.html",
+      "path": "/samagri-paak.html",
+      "title": "Samagri-Paak — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "5727331e472b0b59b869f18344c8da4772365d0499b1f62b779ddf1a34661666",
+      "headings_count": 1
+    },
+    {
+      "file": "sampraday-pradeep.html",
+      "path": "/sampraday-pradeep.html",
+      "title": "Sampraday Pradeep — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "be66ee5c54f151984b2f52d9085d9866e251a2ab4b942bfe92f229ca9df44784",
+      "headings_count": 1
+    },
+    {
+      "file": "sanskrit-misc.html",
+      "path": "/sanskrit-misc.html",
+      "title": "Miscelleneous — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "98703098b520304a02e97c684f0dbccf9af8029b4dd5c1cb25d3e50a8f931bf1",
+      "headings_count": 1
+    },
+    {
+      "file": "sanskrit.html",
+      "path": "/sanskrit.html",
+      "title": "Sanskrit — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "5ad6ed9c780f3201cc0e4b9333880cac6f503cc46172641acf43e13df9f52377",
+      "headings_count": 1
+    },
+    {
+      "file": "sanyas-nirnaya.html",
+      "path": "/sanyas-nirnaya.html",
+      "title": "Sanyas Nirnaya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "e95b6c17a2760acf373f741642c09b2c962985eee641120781cdb14334b54ea4",
+      "headings_count": 1
+    },
+    {
+      "file": "sarvanirnaya-prakaran.html",
+      "path": "/sarvanirnaya-prakaran.html",
+      "title": "Sarvanirnaya Prakaran — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "7cd9319aa8ba371e77157e1f8d25c79ecb4b4d010ab9ad082ebb7997f3fd5f06",
+      "headings_count": 1
+    },
+    {
+      "file": "seva-sahitya.html",
+      "path": "/seva-sahitya.html",
+      "title": "Seva Sahitya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "b2026bf6fd67551fcffd36e64d79c083f90c8ec8521bfb08c3610ee9e53e118f",
+      "headings_count": 1
+    },
+    {
+      "file": "seva-vidhi.html",
+      "path": "/seva-vidhi.html",
+      "title": "Seva Vidhi — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "f40614dbf602f8f5ac4c04d54233bf1a77d473a5cacb3b428185c480ad038844",
+      "headings_count": 1
+    },
+    {
+      "file": "sevafalam.html",
+      "path": "/sevafalam.html",
+      "title": "Sevafalam — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "6bda18dc47381c6ffee85a2ce057cbdce3b94372386ab6a94596035ba9573c80",
+      "headings_count": 1
+    },
+    {
+      "file": "shastrarth-prakaran.html",
+      "path": "/shastrarth-prakaran.html",
+      "title": "Shastrarth Prakaran — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "71f316638fa97f11355b5bb1653fecf862c2196c2adbf5ceccde7a4e06e79f66",
+      "headings_count": 1
+    },
+    {
+      "file": "shiksha-shloki.html",
+      "path": "/shiksha-shloki.html",
+      "title": "Shiksha Shloki — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "8c01cd21eff5b19c7187667a8c4ea97302a7aa28d4d8bfc2af816ca67b7bf821",
+      "headings_count": 1
+    },
+    {
+      "file": "shodash-granthas.html",
+      "path": "/shodash-granthas.html",
+      "title": "Shodash Granthas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "aeed023339bf203685fde83549a04d44561d0ee919828d85e53a16f4fed9a8da",
+      "headings_count": 1
+    },
+    {
+      "file": "shree-subodhini.html",
+      "path": "/shree-subodhini.html",
+      "title": "Shree Subodhini — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "8a4624e435d9ff4ba19a2ca0080b5fa7dc007314406170373cd7be18548749b3",
+      "headings_count": 1
+    },
+    {
+      "file": "shringar-sahitya.html",
+      "path": "/shringar-sahitya.html",
+      "title": "Shringar Sahitya — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "988a0003d84d7247e67d3cadd17e8357a236af69545d5eccb6a00b48b56ae0d0",
+      "headings_count": 1
+    },
+    {
+      "file": "shuksma-tika.html",
+      "path": "/shuksma-tika.html",
+      "title": "Shuksma Tika — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "18bcc0a112496d645fde2124c02696c7585a11bbb413f8be603ae1d9460de40b",
+      "headings_count": 1
+    },
+    {
+      "file": "siddhant-muktavali.html",
+      "path": "/siddhant-muktavali.html",
+      "title": "Siddhant Muktavali — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "47a91ef01f073ac5f0df408742004cd494dfff9e9e9b7e5a072538ddc8d00afc",
+      "headings_count": 2
+    },
+    {
+      "file": "siddhant-rahasyam.html",
+      "path": "/siddhant-rahasyam.html",
+      "title": "Siddhant Rahasyam — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "9e3bce73f6834b7c553621e96d0c1618e6ce0d4327a823c1963d79fc8fb5426a",
+      "headings_count": 2
+    },
+    {
+      "file": "sitemap.html",
+      "path": "/sitemap.html",
+      "title": "Sitemap — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "90cc68f8e457d9ed51ed4036cb5ed903fc9f376e77f4e3f6570f31253618f6ee",
+      "headings_count": 12
+    },
+    {
+      "file": "subscribe.html",
+      "path": "/subscribe.html",
+      "title": "Subscribe — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "17215a7f161e92521f6323b6b6fb3190007e3e13b2eee0547b0404ef9e0826da",
+      "headings_count": 1
+    },
+    {
+      "file": "tatva-chintanarth.html",
+      "path": "/tatva-chintanarth.html",
+      "title": "Tatva Chintanarth — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "1af8caa173729357afe06d06693da6977ccf0384ff9252eb0cb6eb92a1540c59",
+      "headings_count": 1
+    },
+    {
+      "file": "utsav-bhavna.html",
+      "path": "/utsav-bhavna.html",
+      "title": "Utsav Bhavna — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "52561741fc9b9d6edd7a57a19907ab51834b2e4416fd09c6fc28da9b5e33f4b6",
+      "headings_count": 1
+    },
+    {
+      "file": "vaad-granthas.html",
+      "path": "/vaad-granthas.html",
+      "title": "Vaad Granthas — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "385a90668cedb603860495729a1950dbaf56c6669b89a8dca8b1361147a251bc",
+      "headings_count": 1
+    },
+    {
+      "file": "vaarta-sahitya.html",
+      "path": "/vaarta-sahitya.html",
+      "title": "Vaarta Sahitya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "bd6370a9d4e1fc91275a62fdeef3e6a3caaac6bf5e47d351bbc1c49b3a182492",
+      "headings_count": 1
+    },
+    {
+      "file": "vachanamruts.html",
+      "path": "/vachanamruts.html",
+      "title": "Vachanamruts — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "4fad7c5001e41070393b55dbeaf23b6c1f118f60a64747b617062f0e42cc63ca",
+      "headings_count": 1
+    },
+    {
+      "file": "vanshavali.html",
+      "path": "/vanshavali.html",
+      "title": "Shree Vallabhacharyaji Vanshavali — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "7d646463b31cb400f4d7568e014c2bbcf49070fcbb0ed82ea864474bcdf1d1df",
+      "headings_count": 1
+    },
+    {
+      "file": "vastra-sahitya.html",
+      "path": "/vastra-sahitya.html",
+      "title": "Vastra Sahitya — Pushti Sahitya Vβeta 5.0",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "7b9f51fa257363c6cf48baf51e69d6feb5cc0dd87bab8bfb967582b40b28933c",
+      "headings_count": 1
+    },
+    {
+      "file": "vedic.html",
+      "path": "/vedic.html",
+      "title": "Vedic — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "c87e38c4442fad0bac3b014274cf138b7f6bf05e651593306e2bb0866649468a",
+      "headings_count": 1
+    },
+    {
+      "file": "vivek-dhairya-ashraya.html",
+      "path": "/vivek-dhairya-ashraya.html",
+      "title": "Vivek Dhairya Ashraya — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "02455a37e9826fc3d975cb3fd139cbe614ff4cb502b7656cb9df15e53f27fc90",
+      "headings_count": 2
+    },
+    {
+      "file": "vyakarana.html",
+      "path": "/vyakarana.html",
+      "title": "Vyakarana — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "d9ff65432db190838b2ebaf355fa93e707d1f3d52a22e4299d37340a71bb80c7",
+      "headings_count": 1
+    },
+    {
+      "file": "yamunashtakam.html",
+      "path": "/yamunashtakam.html",
+      "title": "Shree Yamunashtakam — Pushti Sahitya",
+      "type": "page",
+      "source": "local_html",
+      "sha256": "806870b3e9dc1b2161a632070e8f8d1cde72a0a84dcb7b68a30190f6a39a83f9",
+      "headings_count": 2
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Home",
+      "items": [
+        {
+          "label": "Home",
+          "file": "index.html"
+        }
+      ]
+    },
+    {
+      "group": "Library",
+      "items": [
+        {
+          "label": "Search Granthas",
+          "file": "granthas.html"
+        },
+        {
+          "label": "Ṣoḍaśa Granthas",
+          "file": "shodash-granthas.html"
+        },
+        {
+          "label": "Detail",
+          "file": "detail.html"
+        }
+      ]
+    },
+    {
+      "group": "Ācāryas",
+      "items": [
+        {
+          "label": "Vallabhācārya",
+          "file": "acharya-vallabhacharyaji.html"
+        },
+        {
+          "label": "Gopīnāthjī",
+          "file": "acharya-gopinathji.html"
+        },
+        {
+          "label": "Viṭṭhalnāthjī",
+          "file": "acharya-vitthalnathji.html"
+        },
+        {
+          "label": "Jeevan Charitra",
+          "file": "jeevan-charitra.html"
+        },
+        {
+          "label": "Vanshavali",
+          "file": "vanshavali.html"
+        }
+      ]
+    },
+    {
+      "group": "Darshanic & Siddhant",
+      "items": [
+        {
+          "label": "Brahmvaad",
+          "file": "brahmvaad.html"
+        },
+        {
+          "label": "Siddhant Muktavali",
+          "file": "siddhant-muktavali.html"
+        },
+        {
+          "label": "Siddhant Rahasyam",
+          "file": "siddhant-rahasyam.html"
+        },
+        {
+          "label": "Darshanic",
+          "file": "darshanic.html"
+        },
+        {
+          "label": "Anubhasya",
+          "file": "anubhasya.html"
+        },
+        {
+          "label": "Shree Subodhini",
+          "file": "shree-subodhini.html"
+        }
+      ]
+    },
+    {
+      "group": "Seva & Sahitya",
+      "items": [
+        {
+          "label": "Seva Sahitya",
+          "file": "seva-sahitya.html"
+        },
+        {
+          "label": "Seva Vidhi",
+          "file": "seva-vidhi.html"
+        },
+        {
+          "label": "Sevafalam",
+          "file": "sevafalam.html"
+        },
+        {
+          "label": "Shringar",
+          "file": "shringar-sahitya.html"
+        },
+        {
+          "label": "Vastra",
+          "file": "vastra-sahitya.html"
+        },
+        {
+          "label": "Samagri Paak",
+          "file": "samagri-paak.html"
+        }
+      ]
+    },
+    {
+      "group": "Kirtan / Vaarta / Vachanamrut",
+      "items": [
+        {
+          "label": "Kirtan Granthas",
+          "file": "kirtan-granthas.html"
+        },
+        {
+          "label": "Vaarta Sahitya",
+          "file": "vaarta-sahitya.html"
+        },
+        {
+          "label": "Vachanamruts",
+          "file": "vachanamruts.html"
+        }
+      ]
+    },
+    {
+      "group": "Other Granthas",
+      "items": [
+        {
+          "label": "Navratnam",
+          "file": "navratnam.html"
+        },
+        {
+          "label": "Yamunashtakam",
+          "file": "yamunashtakam.html"
+        },
+        {
+          "label": "Chatuhshloki",
+          "file": "chatuhshloki.html"
+        },
+        {
+          "label": "Balbodh",
+          "file": "balbodh.html"
+        },
+        {
+          "label": "Articles",
+          "file": "articles.html"
+        },
+        {
+          "label": "Magazines",
+          "file": "magazines.html"
+        },
+        {
+          "label": "Manuscripts",
+          "file": "manuscripts.html"
+        }
+      ]
+    },
+    {
+      "group": "About & Contact",
+      "items": [
+        {
+          "label": "About",
+          "file": "about.html"
+        },
+        {
+          "label": "Contact",
+          "file": "contact.html"
+        },
+        {
+          "label": "Subscribe",
+          "file": "subscribe.html"
+        }
+      ]
+    },
+    {
+      "group": "Policies",
+      "folder": "policies/",
+      "items": [
+        {
+          "label": "Privacy",
+          "file": "policies/privacy-policy.html"
+        },
+        {
+          "label": "Terms",
+          "file": "policies/terms-and-conditions.html"
+        },
+        {
+          "label": "Disclaimer",
+          "file": "policies/disclaimer.html"
+        }
+      ]
+    }
+  ]
+}

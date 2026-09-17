@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Vivek Dhairya Ashraya — Pushti Sahitya</title>
+  <meta name="description" content="Vivek Dhairya Ashraya — Digital Repository of Pushtimargiya Granthas">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#0D0D3A">
+</head>
+<body data-page="scriptures">
+<!-- PS Full-Page Loader -->
+<style>
+#ps-loader{position:fixed;inset:0;z-index:99999;background-color:#ffd200;background-image:radial-gradient(#0d0b09 1.6px,transparent 1.6px);background-size:9px 9px;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity .8s ease;font-family:system-ui,-apple-system,sans-serif;margin:0;padding:1rem}
+#ps-loader.ps-hide{opacity:0;pointer-events:none}
+
+/* White glass panel for mantra + RL loader */
+#ps-loader .ps-glass{
+  background:#ffffff;
+  border:4px solid #000;
+  box-shadow:8px 8px 0 #000;
+  border-radius:.5rem;
+  padding:1.35rem 1.4rem 1.15rem;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  max-width:min(300px,90vw);
+  animation:ps-pop .75s cubic-bezier(.22,1.2,.36,1) forwards;
+}
+@keyframes ps-pop{0%{transform:scale(.88);opacity:.65}55%{transform:scale(1.06)}100%{transform:scale(1);opacity:1}}
+
+#ps-loader .ps-mantra{
+  font-size:clamp(.78rem,3.4vw,1rem);
+  font-weight:700;
+  color:#0d0b09;
+  text-align:center;
+  line-height:1.5;
+  letter-spacing:.02em;
+  margin-bottom:1.15rem;
+}
+
+/* Rocket League Esports style bars (adapted from official RL loader) */
+#ps-loader .rl-loading-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:6px;
+  height:48px;
+}
+#ps-loader .rl-loading-thumb{
+  width:10px;
+  height:40px;
+  background:#ff6d00;
+  border:2px solid #000;
+  border-radius:2px;
+  animation:rl-load 1.1s ease-in-out infinite;
+}
+#ps-loader .rl-loading-thumb-1{animation-delay:0s}
+#ps-loader .rl-loading-thumb-2{animation-delay:.15s}
+#ps-loader .rl-loading-thumb-3{animation-delay:.3s}
+@keyframes rl-load{
+  0%,100%{transform:scaleY(.35);opacity:.55}
+  50%{transform:scaleY(1);opacity:1}
+}
+
+#ps-loader .ps-pct{
+  margin-top:1.25rem;
+  font-weight:700;
+  font-size:1.1rem;
+  letter-spacing:.12em;
+  color:#0d0b09;
+  text-transform:uppercase;
+}
+#ps-loader .ps-bar{
+  width:300px;
+  max-width:82vw;
+  height:12px;
+  border:3px solid #000;
+  background:#fff;
+  margin-top:.5rem;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+#ps-loader .ps-fill{
+  height:100%;
+  width:0%;
+  background:#ff6d00;
+  transition:width .28s ease-out;
+}
+</style>
+<div id="ps-loader" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="Loading Pushti Sahitya">
+  <div class="ps-glass">
+    <div class="ps-mantra">शास्त्रमवगत्य<br>मनोवाग्देहै:<br>कृष्ण: सेव्य:</div>
+    <div class="rl-loading-container" aria-hidden="true">
+      <div class="rl-loading-thumb rl-loading-thumb-1"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-2"></div>
+      <div class="rl-loading-thumb rl-loading-thumb-3"></div>
+    </div>
+  </div>
+  <div class="ps-pct">LOADING... <span id="ps-pct-num">0</span>%</div>
+  <div class="ps-bar"><div class="ps-fill" id="ps-fill"></div></div>
+</div>
+<script src="loader.js"></script>
+
+
+
+
+
+
+
+
+</div>
+
+<div id="site-header"></div>
+  <main id="main" class="page-enter">
+    <section class="section">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a><span>→</span>
+          <a href="shodash-granthas.html">Shodash Granthas</a><span>→</span>
+          <span aria-current="page">Vivek Dhairya Ashraya</span>
+        </nav>
+        <h1>Vivek Dhairya Ashraya</h1>
+
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Language</th>
+                <th>Description</th>
+                <th>e-book</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Title">Introduction to Vivek-Dhairya-Ashraya</td>
+                <td data-label="Author"></td>
+                <td data-label="Language">Hindi</td>
+                <td data-label="Description">This Pdf contains the Introduction to Vivek-Dhairya-Ashraya Granth.</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/sanskrit/ShodashGranthas/Navratnam/Introduction-Navratnam.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Vivek-Dhairya-Ashraya Granth and Its Various Commentaries</td>
+                <td data-label="Author">Mahaprabhu Shree Vallabhacharyaji</td>
+                <td data-label="Language">Sanskrit</td>
+                <td data-label="Description">This pdf contains the Original Granth of Vivek-Dhairya-Ashraya written by Shree Vallabhacharyaji and various commentaries on this granth by other Acharyas of the Sampraday. The Commentaries of following Acharyas is included in this pdf (Shree Vitthalnathji - Shree Gusaiji, Shree Vallabhji, Shree Murlidharji)</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/sanskrit/ShodashGranthas/VivekDhaiyraAshraya/Tikas-VivekDhairyaAshraya.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Vivek Dhairya Ashraya - Explanation</td>
+                <td data-label="Author">Shree Harishankar Omkarji Shastri</td>
+                <td data-label="Language">Hindi</td>
+                <td data-label="Description">This Pdf contains Explanation of Vivek-Dhairya-Ashraya granth in Hindi.</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/sanskrit/ShodashGranthas/VivekDhaiyraAshraya/VivekDhairyaAshraya-Hindi.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+              <tr>
+                <td data-label="Title">Vivek Dhairya Ashraya - Translation</td>
+                <td data-label="Author"></td>
+                <td data-label="Language">Gujarati</td>
+                <td data-label="Description">This pdf contains the translation of Vivek Dhairya Ashraya in Gujarati</td>
+                <td data-label="e-book"><a href="https://www.pushtisahitya.org/Gujarati/granthas/shodashgranthas/Vivekdhairyaashraya/VivekdhairyaAshraya-Guj.pdf" target="_blank" rel="noopener noreferrer">Read</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="explain-section">
+<h2>Explanation</h2>
+<div class="explain-grid">
+<figure class="explain-card">
+<img alt="Vivek-Dhairya-Ashraya — explanation chart 1" decoding="async" height="364" loading="lazy" src="https://www.pushtisahitya.org/images/Shodash%20Granthas/VivekDhairyaashraya-1.jpg" width="532"/>
+<figcaption>Vivek-Dhairya-Ashraya — explanation (1)</figcaption>
+</figure>
+<figure class="explain-card">
+<img alt="Vivek-Dhairya-Ashraya — explanation chart 2" decoding="async" height="478" loading="lazy" src="https://www.pushtisahitya.org/images/Shodash%20Granthas/VivekDhairyaashraya-2.jpg" width="629"/>
+<figcaption>Vivek-Dhairya-Ashraya — explanation (2)</figcaption>
+</figure>
+</div>
+</div>
+
+        <p class="page-disclaimer">Disclaimer: If anyone has any type of copyright issues in publishing the granthas in electronic format in this website, please email us at admin@pushtisahitya.org. This portal is NOT the official website of Pushti Sampraday.</p>
+      </div>
+    </section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="script.js?v=5.3" defer></script>
+</body>
+</html>

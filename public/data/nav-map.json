@@ -1,0 +1,97 @@
+{
+  "site_version": "Vβeta 5.0",
+  "note": "HTML files remain at public root so existing links work without HTML text changes. This map documents navigation groups.",
+  "navigation": [
+    {
+      "group": "Home",
+      "items": [{ "label": "Home", "file": "index.html" }]
+    },
+    {
+      "group": "Library",
+      "items": [
+        { "label": "Search Granthas", "file": "granthas.html" },
+        { "label": "Ṣoḍaśa Granthas", "file": "shodash-granthas.html" },
+        { "label": "Detail", "file": "detail.html" }
+      ]
+    },
+    {
+      "group": "Ācāryas",
+      "items": [
+        { "label": "Vallabhācārya", "file": "acharya-vallabhacharyaji.html" },
+        { "label": "Gopīnāthjī", "file": "acharya-gopinathji.html" },
+        { "label": "Viṭṭhalnāthjī", "file": "acharya-vitthalnathji.html" },
+        { "label": "Jeevan Charitra", "file": "jeevan-charitra.html" },
+        { "label": "Vanshavali", "file": "vanshavali.html" }
+      ]
+    },
+    {
+      "group": "Darshanic & Siddhant",
+      "items": [
+        { "label": "Brahmvaad", "file": "brahmvaad.html" },
+        { "label": "Siddhant Muktavali", "file": "siddhant-muktavali.html" },
+        { "label": "Siddhant Rahasyam", "file": "siddhant-rahasyam.html" },
+        { "label": "Darshanic", "file": "darshanic.html" },
+        { "label": "Anubhasya", "file": "anubhasya.html" },
+        { "label": "Shree Subodhini", "file": "shree-subodhini.html" }
+      ]
+    },
+    {
+      "group": "Seva & Sahitya",
+      "items": [
+        { "label": "Seva Sahitya", "file": "seva-sahitya.html" },
+        { "label": "Seva Vidhi", "file": "seva-vidhi.html" },
+        { "label": "Sevafalam", "file": "sevafalam.html" },
+        { "label": "Shringar", "file": "shringar-sahitya.html" },
+        { "label": "Vastra", "file": "vastra-sahitya.html" },
+        { "label": "Samagri Paak", "file": "samagri-paak.html" }
+      ]
+    },
+    {
+      "group": "Kirtan / Vaarta / Vachanamrut",
+      "items": [
+        { "label": "Kirtan Granthas", "file": "kirtan-granthas.html" },
+        { "label": "Vaarta Sahitya", "file": "vaarta-sahitya.html" },
+        { "label": "Vachanamruts", "file": "vachanamruts.html" }
+      ]
+    },
+    {
+      "group": "Other Granthas",
+      "items": [
+        { "label": "Navratnam", "file": "navratnam.html" },
+        { "label": "Yamunashtakam", "file": "yamunashtakam.html" },
+        { "label": "Chatuhshloki", "file": "chatuhshloki.html" },
+        { "label": "Balbodh", "file": "balbodh.html" },
+        { "label": "Articles", "file": "articles.html" },
+        { "label": "Magazines", "file": "magazines.html" },
+        { "label": "Manuscripts", "file": "manuscripts.html" }
+      ]
+    },
+    {
+      "group": "About & Contact",
+      "items": [
+        { "label": "About", "file": "about.html" },
+        { "label": "Contact", "file": "contact.html" },
+        { "label": "Subscribe", "file": "subscribe.html" }
+      ]
+    },
+    {
+      "group": "Policies",
+      "folder": "policies/",
+      "items": [
+        { "label": "Privacy", "file": "policies/privacy-policy.html" },
+        { "label": "Terms", "file": "policies/terms-and-conditions.html" },
+        { "label": "Disclaimer", "file": "policies/disclaimer.html" }
+      ]
+    }
+  ],
+  "folders": {
+    "data/": "Canonical JSON (granthas.json, nav-map.json)",
+    "reports/": "Validation and audit outputs",
+    "docs/": "Architecture, changelog, Digital Granthapal docs",
+    "components/": "Shared header/footer partials",
+    "policies/": "Legal and policy pages",
+    "images/": "Images and PWA icons",
+    "js/": "Optional future modules (main script.js stays at root for HTML compatibility)",
+    "css/": "Optional future stylesheets (style.css stays at root)"
+  }
+}
